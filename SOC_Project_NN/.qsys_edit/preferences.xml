@@ -10,6 +10,7 @@
   </columns>
  </systemtable>
  <library
-   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Project,Library/Basic Functions,Library/Basic Functions/Simulation; Debug and Verification,Library" />
+   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library,Library/Basic Functions,Project,Library/Basic Functions/Simulation; Debug and Verification" />
  <window width="1920" height="1014" x="0" y="28" />
+ <generation testbench_system="SIMPLE" />
 </preferences>

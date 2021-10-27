@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Oct 27, 2021 2:48:16 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1635360496397</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Oct 27, 2021 4:13:44 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1635365624686</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/ecegrid/a/695r15/ece695r/SOC_Project_NN/software/MNIST_MLP_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../nios_system.sopcinfo</SopcDesignFile>
