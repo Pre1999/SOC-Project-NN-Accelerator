@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="nios_system" kind="nios_system" version="1.0" fabric="QSYS">
  <!-- Format version 17.0 595 (Future versions may contain additional information.) -->
- <!-- 2021.10.27.13:53:17 -->
+ <!-- 2021.10.27.16:10:34 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1635357197</value>
+  <value>1635365434</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -3325,7 +3325,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SIM_MODEL_BASE</name>
-   <value>0</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.STARVATION_INDICATOR</name>
@@ -3370,6 +3370,58 @@ the requested settings for a module instance. -->
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_DATA_WIDTH</name>
    <value>32</value>
+  </assignment>
+  <assignment>
+   <name>postgeneration.simulation.init_file.param_name</name>
+   <value>INIT_FILE</value>
+  </assignment>
+  <assignment>
+   <name>postgeneration.simulation.init_file.param_owner</name>
+   <value>wire</value>
+  </assignment>
+  <assignment>
+   <name>postgeneration.simulation.init_file.type</name>
+   <value>MEM_INIT</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.map.clk</name>
+   <value>my_partner.clk</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.map.wire</name>
+   <value>my_partner.conduit</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.class</name>
+   <value>altera_sdram_partner_module</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.CAS_LATENCY</name>
+   <value>3</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.CONTR_NAME</name>
+   <value>nios_system_new_sdram_controller_0</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.SDRAM_BANK_WIDTH</name>
+   <value>2</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.SDRAM_COL_WIDTH</name>
+   <value>10</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.SDRAM_DATA_WIDTH</name>
+   <value>32</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.SDRAM_NUM_CHIPSELECTS</name>
+   <value>1</value>
+  </assignment>
+  <assignment>
+   <name>testbench.partner.my_partner.parameter.SDRAM_ROW_WIDTH</name>
+   <value>13</value>
   </assignment>
   <parameter name="TAC">
    <type>double</type>
@@ -3437,7 +3489,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="generateSimulationModel">
    <type>boolean</type>
-   <value>false</value>
+   <value>true</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

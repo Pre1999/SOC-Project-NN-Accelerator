@@ -9,6 +9,10 @@
    <name preferredWidth="291" />
   </columns>
  </systemtable>
- <library expandedCategories="Library,Project" />
+ master
+ <library
+   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library,Library/Basic Functions,Project,Library/Basic Functions/Simulation; Debug and Verification" />
+main
  <window width="1920" height="1014" x="0" y="28" />
+ <generation testbench_system="SIMPLE" />
 </preferences>

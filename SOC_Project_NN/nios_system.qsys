@@ -420,7 +420,7 @@
   <parameter name="columnWidth" value="10" />
   <parameter name="componentName">$${FILENAME}_new_sdram_controller_0</parameter>
   <parameter name="dataWidth" value="32" />
-  <parameter name="generateSimulationModel" value="false" />
+  <parameter name="generateSimulationModel" value="true" />
   <parameter name="initNOPDelay" value="0.0" />
   <parameter name="initRefreshCommands" value="2" />
   <parameter name="masteredTristateBridgeSlave" value="0" />
