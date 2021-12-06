@@ -9,7 +9,6 @@
    <name preferredWidth="291" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Project,Library/Basic Functions,Library/Basic Functions/Simulation; Debug and Verification,Library" />
+ <library expandedCategories="Library,Project" />
  <window width="1920" height="1014" x="0" y="28" />
 </preferences>
