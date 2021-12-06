@@ -1,5 +1,5 @@
 Assembler report for demo
-Wed Oct 27 14:11:05 2021
+Wed Oct 27 15:30:33 2021
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 
 
@@ -39,7 +39,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Oct 27 14:11:05 2021 ;
+; Assembler Status      ; Successful - Wed Oct 27 15:30:33 2021 ;
 ; Revision Name         ; demo                                  ;
 ; Top-level Entity Name ; demo                                  ;
 ; Family                ; Cyclone IV E                          ;
@@ -65,13 +65,13 @@ agreement for further details.
 +--------+-------------------------------+--------------+
 
 
-+---------------------------------------------------------------------+
-; Assembler Generated Files                                           ;
-+---------------------------------------------------------------------+
-; File Name                                                           ;
-+---------------------------------------------------------------------+
-; /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/output_files/demo.sof ;
-+---------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                      ;
++------------------------------------------------------------------------------------------------+
+; File Name                                                                                      ;
++------------------------------------------------------------------------------------------------+
+; /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/output_files/demo.sof ;
++------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------+
@@ -90,15 +90,15 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
-    Info: Processing started: Wed Oct 27 14:11:01 2021
+    Info: Processing started: Wed Oct 27 15:30:28 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off demo -c demo
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 862 megabytes
-    Info: Processing ended: Wed Oct 27 14:11:06 2021
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Wed Oct 27 15:30:34 2021
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:04
 
 

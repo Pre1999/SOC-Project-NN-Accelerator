@@ -1,5 +1,5 @@
 Fitter report for demo
-Wed Oct 27 14:10:56 2021
+Wed Oct 27 15:30:22 2021
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 
 
@@ -78,7 +78,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Oct 27 14:10:56 2021           ;
+; Fitter Status                      ; Successful - Wed Oct 27 15:30:22 2021           ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Standard Edition ;
 ; Revision Name                      ; demo                                            ;
 ; Top-level Entity Name              ; demo                                            ;
@@ -170,9 +170,9 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   3.0%      ;
-;     Processor 3            ;   2.9%      ;
-;     Processor 4            ;   2.8%      ;
+;     Processor 2            ;   3.1%      ;
+;     Processor 3            ;   3.0%      ;
+;     Processor 4            ;   2.9%      ;
 +----------------------------+-------------+
 
 
@@ -1502,7 +1502,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/output_files/demo.pin.
+The pin-out file can be found in /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/output_files/demo.pin.
 
 
 +------------------------------------------------------------------------------+
@@ -5429,10 +5429,10 @@ Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors
 Info (119006): Selected device EP4CE115F29C7 for design "demo"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
-    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of -54 degrees (-3000 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
-    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[1] port File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
-    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] port File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
+Info (15535): Implemented PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
+    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of -54 degrees (-3000 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
+    Info (15099): Implementing clock multiplication of 1, clock division of 2, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[1] port File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
+    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] port File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
     Info (176445): Device EP4CE40F29C7 is compatible
@@ -5504,93 +5504,93 @@ Info (332111): Found 5 clocks
     Info (332111):   20.000 pll_inst|altpll_component|auto_generated|pll1|clk[0]
     Info (332111):   40.000 pll_inst|altpll_component|auto_generated|pll1|clk[1]
     Info (332111):   20.000 pll_inst|altpll_component|auto_generated|pll1|clk[2]
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 78
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal External Clock Output CLKCTRL_PLL1E0
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C2 of PLL_1) File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 78
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C2 of PLL_1) File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] (placed in counter C1 of PLL_1) File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 78
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] (placed in counter C1 of PLL_1) File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
 Info (176353): Automatically promoted node altera_internal_jtag~TCKUTAP 
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node nios_system:nios_sytem_inst|altera_reset_controller:rst_controller|r_sync_rst  File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/altera_reset_controller.v Line: 288
+Info (176353): Automatically promoted node nios_system:nios_sytem_inst|altera_reset_controller:rst_controller|r_sync_rst  File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/altera_reset_controller.v Line: 288
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[6] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[5] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[4] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[3] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[2] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[1] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[0] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[6] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[5] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
-        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[4] File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[6] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[5] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[4] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[3] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[2] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[1] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_0ab:wr_ptr|counter_reg_bit[0] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_0ab.tdf Line: 69
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[6] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[5] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
+        Info (176357): Destination node nios_system:nios_sytem_inst|nios_system_video_pixel_buffer_dma_0:video_pixel_buffer_dma_0|scfifo:Image_Buffer|scfifo_p4a1:auto_generated|a_dpfifo_es31:dpfifo|cntr_ca7:usedw_counter|counter_reg_bit[4] File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/cntr_ca7.tdf Line: 70
         Info (176358): Non-global destination nodes limited to 10 nodes
 Info (176233): Starting register packing
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[0]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[0]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[1]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[1]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[2]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[2]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[3]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[3]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[4]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[4]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[5]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[5]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[6]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[6]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[7]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[7]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[8]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[8]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[9]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[9]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[10]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[10]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[11]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[11]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[12]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[12]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[13]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[13]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[14]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[14]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[15]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[15]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[16]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[16]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[17]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[17]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[18]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[18]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[19]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[19]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[20]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[20]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[21]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[21]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[22]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[22]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[23]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[23]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[24]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[24]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[25]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[25]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[26]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[26]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[27]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[27]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[28]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[28]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[29]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[29]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[30]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[30]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[31]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
-    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[31]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[0]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[0]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[1]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[1]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[2]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[2]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[3]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[3]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[4]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[4]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[5]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[5]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[6]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[6]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[7]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[7]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[8]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[8]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[9]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[9]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[10]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[10]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[11]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[11]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[12]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[12]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[13]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[13]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[14]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[14]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[15]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[15]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[16]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[16]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[17]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[17]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[18]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[18]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[19]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[19]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[20]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[20]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[21]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[21]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[22]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[22]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[23]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[23]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[24]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[24]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[25]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[25]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[26]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[26]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[27]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[27]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[28]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[28]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[29]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[29]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[30]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[30]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+Warning (176225): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[31]~_Duplicate_1 to I/O pin File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
+    Warning (176267): Can't pack node nios_system:nios_sytem_inst|nios_system_new_sdram_controller_0:new_sdram_controller_0|m_data[31]~_Duplicate_1 -- no packable connection between output pin and register File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v Line: 442
 Warning (176250): Ignoring invalid fast I/O register assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (176251): Ignoring some wildcard destinations of fast I/O register assignments
     Info (176252): Wildcard assignment "Fast Output Register=ON" to "*" matches multiple destination nodes -- some destinations are not valid targets for this assignment
@@ -5638,8 +5638,8 @@ Info (176235): Finished register packing
     Extra Info (176218): Packed 56 registers into blocks of type I/O Input Buffer
     Extra Info (176218): Packed 215 registers into blocks of type I/O Output Buffer
     Extra Info (176220): Created 124 register duplicates
-Warning (15058): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" is in normal or source synchronous mode with output clock "compensate_clock" set to clk[0] that is not fully compensated because it feeds an output pin -- only PLLs in zero delay buffer mode can fully compensate output pins File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
-Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[1] feeds output pin "VGA_CLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/db/pll_altpll.v Line: 44
+Warning (15058): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" is in normal or source synchronous mode with output clock "compensate_clock" set to clk[0] that is not fully compensated because it feeds an output pin -- only PLLs in zero delay buffer mode can fully compensate output pins File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
+Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[1] feeds output pin "VGA_CLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/db/pll_altpll.v Line: 44
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "AUD_ADCDAT" is assigned to location or region, but does not exist in design
     Warning (15706): Node "AUD_ADCLRCK" is assigned to location or region, but does not exist in design
@@ -5952,123 +5952,123 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "UART_RTS" is assigned to location or region, but does not exist in design
     Warning (15706): Node "UART_RXD" is assigned to location or region, but does not exist in design
     Warning (15706): Node "UART_TXD" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:09
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:13
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:04
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 3% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 28% of the available device resources in the region that extends from location X58_Y37 to location X68_Y48
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:05
-Info (11888): Total time spent on timing analysis during the Fitter is 4.05 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:07
+Info (11888): Total time spent on timing analysis during the Fitter is 5.18 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:05
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 84 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin FL_ADDR[0] uses I/O standard 3.3-V LVTTL at AG12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[1] uses I/O standard 3.3-V LVTTL at AH7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[2] uses I/O standard 3.3-V LVTTL at Y13 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[3] uses I/O standard 3.3-V LVTTL at Y14 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[4] uses I/O standard 3.3-V LVTTL at Y12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[5] uses I/O standard 3.3-V LVTTL at AA13 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[6] uses I/O standard 3.3-V LVTTL at AA12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[7] uses I/O standard 3.3-V LVTTL at AB13 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[8] uses I/O standard 3.3-V LVTTL at AB12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[9] uses I/O standard 3.3-V LVTTL at AB10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[10] uses I/O standard 3.3-V LVTTL at AE9 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[11] uses I/O standard 3.3-V LVTTL at AF9 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[12] uses I/O standard 3.3-V LVTTL at AA10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[13] uses I/O standard 3.3-V LVTTL at AD8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[14] uses I/O standard 3.3-V LVTTL at AC8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[15] uses I/O standard 3.3-V LVTTL at Y10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[16] uses I/O standard 3.3-V LVTTL at AA8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[17] uses I/O standard 3.3-V LVTTL at AH12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[18] uses I/O standard 3.3-V LVTTL at AC12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[19] uses I/O standard 3.3-V LVTTL at AD12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[20] uses I/O standard 3.3-V LVTTL at AE10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[21] uses I/O standard 3.3-V LVTTL at AD10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_ADDR[22] uses I/O standard 3.3-V LVTTL at AD11 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 42
-    Info (169178): Pin FL_CE_N uses I/O standard 3.3-V LVTTL at AG7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 44
-    Info (169178): Pin FL_OE_N uses I/O standard 3.3-V LVTTL at AG8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 45
-    Info (169178): Pin FL_WE_N uses I/O standard 3.3-V LVTTL at AC10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 46
-    Info (169178): Pin FL_RY uses I/O standard 3.3-V LVTTL at Y1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 49
-    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 27
-    Info (169178): Pin SRAM_DQ[0] uses I/O standard 3.3-V LVTTL at AH3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[1] uses I/O standard 3.3-V LVTTL at AF4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[2] uses I/O standard 3.3-V LVTTL at AG4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[3] uses I/O standard 3.3-V LVTTL at AH4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[4] uses I/O standard 3.3-V LVTTL at AF6 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[5] uses I/O standard 3.3-V LVTTL at AG6 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[6] uses I/O standard 3.3-V LVTTL at AH6 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[7] uses I/O standard 3.3-V LVTTL at AF7 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[8] uses I/O standard 3.3-V LVTTL at AD1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[9] uses I/O standard 3.3-V LVTTL at AD2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AE2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AE1 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AE3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AE4 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AF3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin SRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AG3 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 34
-    Info (169178): Pin FL_DQ[0] uses I/O standard 3.3-V LVTTL at AH8 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[1] uses I/O standard 3.3-V LVTTL at AF10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[2] uses I/O standard 3.3-V LVTTL at AG10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[3] uses I/O standard 3.3-V LVTTL at AH10 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[4] uses I/O standard 3.3-V LVTTL at AF11 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[5] uses I/O standard 3.3-V LVTTL at AG11 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[6] uses I/O standard 3.3-V LVTTL at AH11 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin FL_DQ[7] uses I/O standard 3.3-V LVTTL at AF12 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 43
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/demo.v Line: 12
-Info (144001): Generated suppressed messages file /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/output_files/demo.fit.smsg
+    Info (169178): Pin FL_ADDR[0] uses I/O standard 3.3-V LVTTL at AG12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[1] uses I/O standard 3.3-V LVTTL at AH7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[2] uses I/O standard 3.3-V LVTTL at Y13 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[3] uses I/O standard 3.3-V LVTTL at Y14 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[4] uses I/O standard 3.3-V LVTTL at Y12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[5] uses I/O standard 3.3-V LVTTL at AA13 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[6] uses I/O standard 3.3-V LVTTL at AA12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[7] uses I/O standard 3.3-V LVTTL at AB13 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[8] uses I/O standard 3.3-V LVTTL at AB12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[9] uses I/O standard 3.3-V LVTTL at AB10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[10] uses I/O standard 3.3-V LVTTL at AE9 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[11] uses I/O standard 3.3-V LVTTL at AF9 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[12] uses I/O standard 3.3-V LVTTL at AA10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[13] uses I/O standard 3.3-V LVTTL at AD8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[14] uses I/O standard 3.3-V LVTTL at AC8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[15] uses I/O standard 3.3-V LVTTL at Y10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[16] uses I/O standard 3.3-V LVTTL at AA8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[17] uses I/O standard 3.3-V LVTTL at AH12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[18] uses I/O standard 3.3-V LVTTL at AC12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[19] uses I/O standard 3.3-V LVTTL at AD12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[20] uses I/O standard 3.3-V LVTTL at AE10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[21] uses I/O standard 3.3-V LVTTL at AD10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_ADDR[22] uses I/O standard 3.3-V LVTTL at AD11 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 42
+    Info (169178): Pin FL_CE_N uses I/O standard 3.3-V LVTTL at AG7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 44
+    Info (169178): Pin FL_OE_N uses I/O standard 3.3-V LVTTL at AG8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 45
+    Info (169178): Pin FL_WE_N uses I/O standard 3.3-V LVTTL at AC10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 46
+    Info (169178): Pin FL_RY uses I/O standard 3.3-V LVTTL at Y1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 49
+    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 27
+    Info (169178): Pin SRAM_DQ[0] uses I/O standard 3.3-V LVTTL at AH3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[1] uses I/O standard 3.3-V LVTTL at AF4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[2] uses I/O standard 3.3-V LVTTL at AG4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[3] uses I/O standard 3.3-V LVTTL at AH4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[4] uses I/O standard 3.3-V LVTTL at AF6 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[5] uses I/O standard 3.3-V LVTTL at AG6 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[6] uses I/O standard 3.3-V LVTTL at AH6 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[7] uses I/O standard 3.3-V LVTTL at AF7 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[8] uses I/O standard 3.3-V LVTTL at AD1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[9] uses I/O standard 3.3-V LVTTL at AD2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AE2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AE1 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AE3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AE4 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AF3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin SRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AG3 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 34
+    Info (169178): Pin FL_DQ[0] uses I/O standard 3.3-V LVTTL at AH8 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[1] uses I/O standard 3.3-V LVTTL at AF10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[2] uses I/O standard 3.3-V LVTTL at AG10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[3] uses I/O standard 3.3-V LVTTL at AH10 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[4] uses I/O standard 3.3-V LVTTL at AF11 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[5] uses I/O standard 3.3-V LVTTL at AG11 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[6] uses I/O standard 3.3-V LVTTL at AH11 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin FL_DQ[7] uses I/O standard 3.3-V LVTTL at AF12 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 43
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/demo.v Line: 12
+Info (144001): Generated suppressed messages file /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/output_files/demo.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 384 warnings
-    Info: Peak virtual memory: 1528 megabytes
-    Info: Processing ended: Wed Oct 27 14:10:59 2021
-    Info: Elapsed time: 00:00:41
-    Info: Total CPU time (on all processors): 00:00:52
+    Info: Peak virtual memory: 1525 megabytes
+    Info: Processing ended: Wed Oct 27 15:30:26 2021
+    Info: Elapsed time: 00:00:53
+    Info: Total CPU time (on all processors): 00:01:04
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in /home/ecegrid/a/695r15/ece695r/SOC_Project_NN/output_files/demo.fit.smsg.
+The suppressed messages can be found in /home/ecegrid/a/695r11/ece695r/SOC-Project-NN-Accelerator/SOC_Project_NN/output_files/demo.fit.smsg.
 
 
