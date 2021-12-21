@@ -1,0 +1,9 @@
+10:57:34 **** Incremental Build of configuration Nios II for project mlp ****
+make all 
+Info: Building ../mlp_bsp/
+make --no-print-directory -C ../mlp_bsp/
+[BSP build complete]
+[mlp build complete]
+
+10:57:34 Build Finished (took 158ms)
+

@@ -1,0 +1,1098 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1639251149
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IlVTJOWXY[kdf:Y:AkPG6B2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1639185468
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+Z3 L0 21
+Z4 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z5 !s108 1639251149.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+valtera_customins_master_translator
+R1
+!i10b 1
+!s100 iAjRYXBhGZ_FfnYD?k0U83
+IOk4lA0@Q2<Q0U_ASSZ48>0
+R2
+R0
+Z9 w1639185465
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_customins_master_translator.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_customins_master_translator.v
+L0 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_customins_master_translator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_customins_master_translator.v|
+!i113 0
+R6
+R7
+R8
+valtera_reset_controller
+Z10 !s110 1639251148
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IRLWnRdIZOVZ;_Pok1j4NB2
+R2
+R0
+Z11 w1639185467
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_controller.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_controller.v
+L0 42
+R4
+r1
+!s85 0
+31
+Z12 !s108 1639251148.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_controller.v|
+!i113 0
+R6
+R7
+R8
+valtera_reset_synchronizer
+R10
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IPzkTLnT=jAl=TDH1;f_F52
+R2
+R0
+R11
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 0
+R6
+R7
+R8
+valtera_up_avalon_video_vga_timing
+R10
+!i10b 1
+!s100 f77gT?TV7S[KXD:O7VH0H1
+I@5R6j>R_BRY2AZ7cT48D`3
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+Z13 L0 28
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!i113 0
+R6
+R7
+R8
+valtera_up_video_128_character_rom
+R10
+!i10b 1
+!s100 :fAOWXBVoQ5_U^dM5<^Lc1
+IQT^EhmdNGVhQM0O_U6;JN3
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_128_character_rom.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_128_character_rom.v
+R13
+R4
+r1
+!s85 0
+31
+Z14 !s108 1639251147.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_128_character_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_128_character_rom.v|
+!i113 0
+R6
+R7
+R8
+valtera_up_video_alpha_blender_simple
+!s110 1639251147
+!i10b 1
+!s100 CcPcj_VKOTZ?h6iV0?0W_1
+IU?7SiMN@@Y4Hkg`@kldJ:2
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_alpha_blender_simple.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_alpha_blender_simple.v
+Z15 L0 34
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_alpha_blender_simple.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/altera_up_video_alpha_blender_simple.v|
+!i113 0
+R6
+R7
+R8
+vdata_buffer
+Z16 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 35V7M3mBL?gBH:oFVl[U72
+IX`i?QN24]JTT[D7h77[m<2
+!s105 data_buffer_sv_unit
+S1
+R0
+Z17 w1576269244
+8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv
+F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv
+L0 7
+R4
+Z18 !s108 1639252332.000000
+Z19 !s107 /home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_adder.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_multiplier.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_tb.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_non_burst.sv|
+Z20 !s90 -reportprogress|300|-work|work|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_non_burst.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_tb.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_multiplier.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_adder.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv|
+!i113 0
+Z21 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vdata_buffer_tb
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 oQ^c]o2En_iID^lc<3RFL0
+IjKMXViI844@AN93f^I1OY1
+Z22 !s105 data_buffer_tb_sv_unit
+S1
+R0
+R17
+Z23 8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer_tb.sv
+Z24 F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer_tb.sv
+L0 9
+R4
+Z25 !s108 1639251770.000000
+Z26 !s107 /home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer_tb.sv|
+Z27 !s90 -reportprogress|300|-work|work|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer_tb.sv|/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/data_buffer.sv|
+!i113 0
+R21
+R8
+4data_buffer_test
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 7ZSg?YMR`Ng]VW8PUgmK>0
+Ic]`oZ3Dm>cQhP[eCXFd:M3
+R22
+S1
+R0
+R17
+R23
+R24
+L0 49
+R4
+R25
+R26
+R27
+!i113 0
+R21
+R8
+vfp_adder
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 `Vd42gL@eB8Mb5RG=]<850
+I]Z?elOlcDGGYnZ>A0eA7l1
+!s105 fp_adder_sv_unit
+S1
+R0
+R17
+8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_adder.sv
+F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_adder.sv
+L0 7
+R4
+R18
+R19
+R20
+!i113 0
+R21
+R8
+vfp_multiplier
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 CEoIJ4J@aDUebE;0S4EnU3
+Ifd=KYlF020hE;Sj>9=iL22
+!s105 fp_multiplier_sv_unit
+S1
+R0
+R17
+8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_multiplier.sv
+F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/fp_multiplier.sv
+L0 7
+R4
+R18
+R19
+R20
+!i113 0
+R21
+R8
+vnios_system
+R1
+!i10b 1
+!s100 ]C[ck3G9Wf^6Uh<]TVzmn0
+ICkf:iB7kzkEKP>d_Djh;93
+R2
+R0
+Z28 w1639185455
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/nios_system.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/nios_system.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/nios_system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/nios_system.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vnios_system_dma_0
+Z29 !s110 1639251146
+!i10b 1
+!s100 ^gRMj?;T^`^Dl7YWXaA>_1
+IbzF3o9SAc_P7:C2DKh[I:1
+R2
+R0
+R28
+Z30 8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_dma_0.v
+Z31 F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_dma_0.v
+L0 541
+R4
+r1
+!s85 0
+31
+Z32 !s108 1639251146.000000
+Z33 !s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_dma_0.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_dma_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_byteenables
+R29
+!i10b 1
+!s100 lPbBSRVY]mGfYdaV=FV860
+IhnfGFRjmc[bWIiJ6H7<_`2
+R2
+R0
+R28
+R30
+R31
+L0 99
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_fifo_module
+R29
+!i10b 1
+!s100 88EWAP4=lZVbUb4=e:D112
+IF^OZdkn]2fUDF[o0ENU9=1
+R2
+R0
+R28
+R30
+R31
+L0 239
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_fifo_module_fifo_ram_module
+R29
+!i10b 1
+!s100 V;ECT75`o:b5L@l:ZSn5f3
+IXzdHIUF^J:MfN;mISf4YI1
+R2
+R0
+R28
+R30
+R31
+L0 140
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_mem_read
+R29
+!i10b 1
+!s100 W4ANIZF4PjT7:bP=Xb28h2
+IQ0WPAT6kn6d;=c43Pd28=1
+R2
+R0
+R28
+R30
+R31
+L0 403
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_mem_write
+R29
+!i10b 1
+!s100 mUGg[@Z[V>?HN^UgLJ1UA2
+ID:eV]H=5;647Q=M9Q[dg43
+R2
+R0
+R28
+R30
+R31
+L0 491
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_dma_0_read_data_mux
+R29
+!i10b 1
+!s100 b`QiJ>[MJhRfFCn?B@g>71
+IGa4k3[a1Hbj;7Y1SmOlb03
+R2
+R0
+R28
+R30
+R31
+R3
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R6
+R7
+R8
+vnios_system_generic_tristate_controller_0
+R29
+!i10b 1
+!s100 40diKJ32NA@d6<4[k<9;D0
+I3nAkkRCW2e:?4bL?9L_7_0
+R2
+R0
+R28
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_generic_tristate_controller_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_generic_tristate_controller_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+R32
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_generic_tristate_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_generic_tristate_controller_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_gleds
+R29
+!i10b 1
+!s100 Lk>iKG861`7In2^OmWR4K1
+I=jQiCX7cW[kEL1SianX_`1
+R2
+R0
+Z35 w1639185456
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_gleds.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_gleds.v
+R3
+R4
+r1
+!s85 0
+31
+Z36 !s108 1639251145.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_gleds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_gleds.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_jtag_uart_0
+Z37 !s110 1639251145
+!i10b 1
+!s100 Fm>ZJdEGihkV`?f6BLz:H0
+I>IMQI:j<P[i<DaQf`=K^j0
+R2
+R0
+R35
+Z38 8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+Z39 F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+L0 331
+R4
+r1
+!s85 0
+31
+R36
+Z40 !s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+Z41 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_jtag_uart_0_scfifo_r
+R37
+!i10b 1
+!s100 47KZM;KA2nU8Ze;ai4g7l3
+IikRhnC^[FY3XRZ2T0`5KQ1
+R2
+R0
+R35
+R38
+R39
+L0 243
+R4
+r1
+!s85 0
+31
+R36
+R40
+R41
+!i113 0
+R6
+R7
+R8
+vnios_system_jtag_uart_0_scfifo_w
+R37
+!i10b 1
+!s100 5`B6]mFoZZhff:NBY<]Fk2
+IKKCmk_lkb:BUDKAFa@_Q=3
+R2
+R0
+R35
+R38
+R39
+L0 78
+R4
+r1
+!s85 0
+31
+R36
+R40
+R41
+!i113 0
+R6
+R7
+R8
+vnios_system_jtag_uart_0_sim_scfifo_r
+R37
+!i10b 1
+!s100 YkRUSd:;8GKW7U=PAIGm80
+IZ5B0EcX6Y2835ZD8g_YZK0
+R2
+R0
+R35
+R38
+R39
+L0 164
+R4
+r1
+!s85 0
+31
+R36
+R40
+R41
+!i113 0
+R6
+R7
+R8
+vnios_system_jtag_uart_0_sim_scfifo_w
+R37
+!i10b 1
+!s100 XFzYcMA6@JMe5hE`VK9ci3
+I@@XTH5ejhHLU_51l5;zzO3
+R2
+R0
+R35
+R38
+R39
+R3
+R4
+r1
+!s85 0
+31
+R36
+R40
+R41
+!i113 0
+R6
+R7
+R8
+vnios_system_mm_interconnect_0
+R37
+!i10b 1
+!s100 gSUzN4X<@T2Ja4WF03S?e0
+IkLPz4cS1jY7=Rj>A`]a8U1
+R2
+R0
+R11
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_mm_interconnect_0_avalon_st_adapter
+R37
+!i10b 1
+!s100 aGFKkE1T=[M]H1V^U3J;51
+IBmcn>5DCdRX`e6HMFKn_c0
+R2
+R0
+Z42 w1639185469
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_mm_interconnect_0_avalon_st_adapter_001
+R37
+!i10b 1
+!s100 U:NXdJMWfHIT9Qn9hTVS13
+InF^07bf9?Y95<16oK6g3T0
+R2
+R0
+R42
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_001.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_001.v
+L0 9
+R4
+r1
+!s85 0
+31
+Z43 !s108 1639251144.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_001.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_001.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_mm_interconnect_0_avalon_st_adapter_002
+Z44 !s110 1639251144
+!i10b 1
+!s100 V=AVFiYQSW_o;h^XS>JJM0
+ILEQb`1@MGzW:CKgl:XRGm2
+R2
+R0
+R42
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_002.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_002.v
+L0 9
+R4
+r1
+!s85 0
+31
+R43
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_002.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_002.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_new_sdram_controller_0
+R44
+!i10b 1
+!s100 Wi7zKdQkR`^jf9OU`^SU71
+IO6mgPVCRU4B2c4Kj7;W^03
+R2
+R0
+R35
+Z45 8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v
+Z46 F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v
+L0 159
+R4
+r1
+!s85 0
+31
+R43
+Z47 !s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v|
+Z48 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_new_sdram_controller_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_new_sdram_controller_0_input_efifo_module
+R44
+!i10b 1
+!s100 D_oTAa2cL:fOgl`56=U110
+IC`V@o4QkEIO<:O1lJanXA2
+R2
+R0
+R35
+R45
+R46
+R3
+R4
+r1
+!s85 0
+31
+R43
+R47
+R48
+!i113 0
+R6
+R7
+R8
+vnios_system_performance_counter_0
+R44
+!i10b 1
+!s100 j9m0ez3=YLI;YJVXGci];2
+IAZ0;9id;cQ97>mLEJ3b1N3
+R2
+R0
+w1639185464
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_performance_counter_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_performance_counter_0.v
+R3
+R4
+r1
+!s85 0
+31
+R43
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_performance_counter_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_performance_counter_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_rleds
+R44
+!i10b 1
+!s100 Nbd=]l8UO]9;Pc]JW4ZSh3
+IT4CZUoNAgE8EV38V^FID:2
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_rleds.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_rleds.v
+R3
+R4
+r1
+!s85 0
+31
+Z49 !s108 1639251143.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_rleds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_rleds.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_sram_0
+Z50 !s110 1639251143
+!i10b 1
+!s100 4T]okIFjniVkli[<iPF?k1
+IlS>TY4M<6G1`KWiXgNhSh1
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_sram_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_sram_0.v
+L0 30
+R4
+r1
+!s85 0
+31
+R49
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_sram_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_sram_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_switches
+R50
+!i10b 1
+!s100 ZBbGQWDfGgCFXA?@l1b=Y3
+Ig4[[I4Z>HcKOemXQWM]id1
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_switches.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_switches.v
+R3
+R4
+r1
+!s85 0
+31
+R49
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_switches.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_switches.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_timer_0
+R50
+!i10b 1
+!s100 :<]IY^NA=aT?4?G?PfNW`1
+In5DEmDClkh05OlAIV4WcS1
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_timer_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_timer_0.v
+R3
+R4
+r1
+!s85 0
+31
+R49
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_timer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_timer_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_alpha_blender_0
+R50
+!i10b 1
+!s100 nOWVO[ZDWWFobMikD^8YC1
+ImEEBMbS;3C8][@?7o[I?Z2
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_alpha_blender_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_alpha_blender_0.v
+R15
+R4
+r1
+!s85 0
+31
+Z51 !s108 1639251142.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_alpha_blender_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_alpha_blender_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_character_buffer_with_dma_0
+Z52 !s110 1639251142
+!i10b 1
+!s100 mNW0gZZd9iORT3;Y_AWb31
+Ig5LB8zkL1L;XAYh1kPBP`2
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_character_buffer_with_dma_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_character_buffer_with_dma_0.v
+Z53 L0 29
+R4
+r1
+!s85 0
+31
+R51
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_character_buffer_with_dma_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_character_buffer_with_dma_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_dual_clock_buffer_0
+R52
+!i10b 1
+!s100 cdn4@eM_H<RgaNzUI[<;f0
+I>YY86HlGIl>=UDWb1_^eC3
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_dual_clock_buffer_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_dual_clock_buffer_0.v
+R53
+R4
+r1
+!s85 0
+31
+R51
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_dual_clock_buffer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_dual_clock_buffer_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_pixel_buffer_dma_0
+R52
+!i10b 1
+!s100 ^KPCEMRV7o_GZ^Q=NKgV33
+I@SZ_MhV=_TV]D3ga1D7ll0
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_pixel_buffer_dma_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_pixel_buffer_dma_0.v
+R53
+R4
+r1
+!s85 0
+31
+R51
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_pixel_buffer_dma_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_pixel_buffer_dma_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_rgb_resampler_0
+Z54 !s110 1639251141
+!i10b 1
+!s100 >FOW<lm47K5DdZCcHL_1Z2
+IBzk1P2QYQfle;3BRmUl5=2
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_rgb_resampler_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_rgb_resampler_0.v
+R13
+R4
+r1
+!s85 0
+31
+Z55 !s108 1639251141.000000
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_rgb_resampler_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_rgb_resampler_0.v|
+!i113 0
+R6
+R7
+R8
+vnios_system_video_vga_controller_0
+R54
+!i10b 1
+!s100 kc6^]oX@jBhRGYH7gQ6gA3
+IezZ50>m5499UAP6DehH652
+R2
+R0
+R9
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_vga_controller_0.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_vga_controller_0.v
+R13
+R4
+r1
+!s85 0
+31
+R55
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_vga_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system/synthesis/submodules/nios_system_video_vga_controller_0.v|
+!i113 0
+R6
+R7
+R8
+vnn_acc_single
+R16
+!s110 1639252332
+!i10b 1
+!s100 ;7eb;dnUXGUe]9JfUe??A0
+I;U>hNKDdcW`RbN3K`GdFY1
+R2
+!s105 nn_acc_single_sv_unit
+S1
+R0
+R17
+8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single.sv
+F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single.sv
+L0 7
+R4
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R8
+vnn_acc_single_non_burst
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 kYO;kN?cMGf`5ZQ2ec][C1
+IdDTH:dijOJUkR95@4c5n?1
+!s105 nn_acc_single_non_burst_sv_unit
+S1
+R0
+R17
+8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_non_burst.sv
+F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_non_burst.sv
+L0 7
+R4
+R18
+R19
+R20
+!i113 0
+R21
+R8
+vnn_acc_single_tb
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 R[2SX?94acE2T=I6^bnz]1
+I5N5f`9=S2<7kBPAaZNeYZ3
+Z56 !s105 nn_acc_single_tb_sv_unit
+S1
+R0
+R17
+Z57 8/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_tb.sv
+Z58 F/home/ecegrid/a/695r11/ece695r/Simple-Neural-Network-Accelerator-master/Custom-Hardware-Blocks/nn_acc_single_tb.sv
+L0 9
+R4
+R18
+R19
+R20
+!i113 0
+R21
+R8
+4nn_acc_single_test
+R16
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 6jOXc4R7HRj;80b9FVlWo0
+I_OGdZ>jba1KGXbVULM2[Q0
+R56
+S1
+R0
+R17
+R57
+R58
+L0 50
+R4
+R18
+R19
+R20
+!i113 0
+R21
+R8
+vpll
+!s110 1639251150
+!i10b 1
+!s100 GNEI3o7UY`6l3a0NAG?AM3
+I6X]WZBebAa>8hdL^UdVj31
+R2
+R0
+w1635362581
+8/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/pll.v
+F/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/pll.v
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design|/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/pll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8

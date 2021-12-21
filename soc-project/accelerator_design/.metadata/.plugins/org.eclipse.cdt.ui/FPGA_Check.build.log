@@ -1,0 +1,9 @@
+19:52:47 **** Incremental Build of configuration Nios II for project FPGA_Check ****
+make all 
+Info: Building ../FPGA_Check_bsp/
+make --no-print-directory -C ../FPGA_Check_bsp/
+[BSP build complete]
+[FPGA_Check build complete]
+
+19:52:47 Build Finished (took 107ms)
+

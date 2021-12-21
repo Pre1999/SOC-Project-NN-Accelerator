@@ -1,0 +1,9 @@
+18:03:32 **** Incremental Build of configuration Nios II for project cnn ****
+make all 
+Info: Building ../cnn_bsp/
+make --no-print-directory -C ../cnn_bsp/
+[BSP build complete]
+[cnn build complete]
+
+18:03:32 Build Finished (took 211ms)
+

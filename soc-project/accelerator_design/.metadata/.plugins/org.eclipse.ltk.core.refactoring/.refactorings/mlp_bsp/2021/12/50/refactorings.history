@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mlp_bsp/system.h&apos; to &apos;system.h_bkp&apos;" description="Rename resource &apos;system.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="system.h" name="system.h_bkp" stamp="1638913115748" updateReferences="true"/>
+</session>

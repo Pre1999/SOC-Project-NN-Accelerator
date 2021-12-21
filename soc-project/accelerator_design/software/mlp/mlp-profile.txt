@@ -1,0 +1,1603 @@
+Flat profile:
+
+Each sample counts as 1 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+100.00      2.00     2.00  5177389     0.00     0.00  __mulsf3
+  0.00      2.00     0.00  5100396     0.00     0.00  __addsf3
+  0.00      2.00     0.00   170420     0.00     0.00  _localeconv_r
+  0.00      2.00     0.00    93323     0.00     0.00  strlen
+  0.00      2.00     0.00    90707     0.00     0.00  __clzsi2
+  0.00      2.00     0.00    86700     0.00     0.00  __gtsf2
+  0.00      2.00     0.00    79396     0.00     0.00  __fixsfsi
+  0.00      2.00     0.00    78400     0.00     0.00  __fixunssfsi
+  0.00      2.00     0.00    78400     0.00     0.00  __truncdfsf2
+  0.00      2.00     0.00    78400     0.00     0.00  _strtod_r
+  0.00      2.00     0.00    78400     0.00     0.00  strtod
+  0.00      2.00     0.00    78304     0.00     0.00  strncmp
+  0.00      2.00     0.00    55208     0.00     0.00  __udivsi3
+  0.00      2.00     0.00    55208     0.00     0.00  __umodsi3
+  0.00      2.00     0.00    14030     0.00     0.00  __floatunsidf
+  0.00      2.00     0.00    13613     0.00     0.00  __divdf3
+  0.00      2.00     0.00     8997     0.00     0.00  __subsf3
+  0.00      2.00     0.00     7400     0.00     0.00  kad_sdot
+  0.00      2.00     0.00     4661     0.00     0.00  read_half_word
+  0.00      2.00     0.00     3546     0.00     0.00  read_word
+  0.00      2.00     0.00     2425     0.00     0.00  memcpy
+  0.00      2.00     0.00     2116     0.00     0.00  __malloc_lock
+  0.00      2.00     0.00     2116     0.00     0.00  __malloc_unlock
+  0.00      2.00     0.00     2001     0.00     0.00  __divsf3
+  0.00      2.00     0.00     1165     0.00     0.00  kad_len
+  0.00      2.00     0.00     1088     0.00     0.00  _free_r
+  0.00      2.00     0.00     1076     0.00     0.00  free
+  0.00      2.00     0.00     1052     0.00     0.00  _malloc_r
+  0.00      2.00     0.00     1000     0.00     0.00  __ieee754_expf
+  0.00      2.00     0.00     1000     0.00     0.00  __lesf2
+  0.00      2.00     0.00     1000     0.00     0.00  expf
+  0.00      2.00     0.00     1000     0.00     0.00  finitef
+  0.00      2.00     0.00      998     0.00     0.00  __floatsisf
+  0.00      2.00     0.00      884     0.00     0.00  _strdup_r
+  0.00      2.00     0.00      884     0.00     0.00  strdup
+  0.00      2.00     0.00      863     0.00     0.00  _read_r
+  0.00      2.00     0.00      725     0.00     0.00  memmove
+  0.00      2.00     0.00      454     0.00     0.00  find_file_entry
+  0.00      2.00     0.00      452     0.00     0.00  __sread
+  0.00      2.00     0.00      452     0.00     0.00  __srefill_r
+  0.00      2.00     0.00      452     0.00     0.00  alt_ro_zipfs_read
+  0.00      2.00     0.00      452     0.00     0.00  read
+  0.00      2.00     0.00      416     0.00     0.00  __divsi3
+  0.00      2.00     0.00      411     0.00     0.00  __sfvwrite_r
+  0.00      2.00     0.00      411     0.00     0.00  __sprint_r
+  0.00      2.00     0.00      351     0.00     0.00  memchr
+  0.00      2.00     0.00      225     0.00     0.00  memset
+  0.00      2.00     0.00      208     0.00     0.00  ___vfprintf_internal_r
+  0.00      2.00     0.00      206     0.00     0.00  kad_op_add
+  0.00      2.00     0.00      206     0.00     0.01  kad_op_cmul
+  0.00      2.00     0.00      200     0.00     0.00  alt_up_char_buffer_draw
+  0.00      2.00     0.00      200     0.00     0.00  kad_saxpy
+  0.00      2.00     0.00      200     0.00     0.00  kad_saxpy_inlined
+  0.00      2.00     0.00      200     0.00     0.01  kad_sgemm_simple
+  0.00      2.00     0.00      189     0.00     0.00  __udivdi3
+  0.00      2.00     0.00      189     0.00     0.00  __umoddi3
+  0.00      2.00     0.00      126     0.00     0.00  _fread_r
+  0.00      2.00     0.00      126     0.00     0.00  fread
+  0.00      2.00     0.00      111     0.00     0.00  alt_irq_handler
+  0.00      2.00     0.00      109     0.00     0.00  __sflush_r
+  0.00      2.00     0.00      106     0.00     0.00  altera_avalon_jtag_uart_irq
+  0.00      2.00     0.00      106     0.00     0.00  malloc
+  0.00      2.00     0.00      104     0.00     0.00  __sbprintf
+  0.00      2.00     0.00      104     0.00     0.00  __swrite
+  0.00      2.00     0.00      104     0.00     0.00  __vfprintf_internal
+  0.00      2.00     0.00      104     0.00     0.00  _fflush_r
+  0.00      2.00     0.00      104     0.00     0.00  _write_r
+  0.00      2.00     0.00      104     0.00     0.00  altera_avalon_jtag_uart_write
+  0.00      2.00     0.00      104     0.00     0.00  altera_avalon_jtag_uart_write_fd
+  0.00      2.00     0.00      104     0.00     0.00  printf
+  0.00      2.00     0.00      104     0.00     0.00  write
+  0.00      2.00     0.00      103     0.00     0.00  kad_op_relu
+  0.00      2.00     0.00      103     0.00     0.00  kad_op_select
+  0.00      2.00     0.00      103     0.00     0.00  kad_op_sigm
+  0.00      2.00     0.00      102     0.00     0.00  _fgets_r
+  0.00      2.00     0.00      102     0.00     0.00  fgets
+  0.00      2.00     0.00      100     0.00     0.02  kad_eval_at
+  0.00      2.00     0.00      100     0.00     0.02  kad_eval_marked
+  0.00      2.00     0.00      100     0.00     0.00  kad_propagate_marks
+  0.00      2.00     0.00      100     0.00     0.00  kad_sync_dim
+  0.00      2.00     0.00      100     0.00     0.02  kann_apply1
+  0.00      2.00     0.00      100     0.00     0.00  kann_feed_bind
+  0.00      2.00     0.00      100     0.00     0.00  kann_find
+  0.00      2.00     0.00       86     0.00     0.00  _sbrk_r
+  0.00      2.00     0.00       41     0.00     0.00  strcmp
+  0.00      2.00     0.00       34     0.00     0.00  _realloc_r
+  0.00      2.00     0.00       34     0.00     0.00  realloc
+  0.00      2.00     0.00       33     0.00     0.00  read_half_word_inc
+  0.00      2.00     0.00       31     0.00     0.00  _calloc_r
+  0.00      2.00     0.00       28     0.00     0.00  calloc
+  0.00      2.00     0.00       22     0.00     0.00  memcmp
+  0.00      2.00     0.00       21     0.00     0.00  alt_read_query_entry_16bit
+  0.00      2.00     0.00       20     0.00     0.00  read_word_inc
+  0.00      2.00     0.00       16     0.00     0.00  kad_load1
+  0.00      2.00     0.00        9     0.00     0.00  alt_release_fd
+  0.00      2.00     0.00        8     0.00     0.00  __muldf3
+  0.00      2.00     0.00        7     0.00     0.00  __floatsidf
+  0.00      2.00     0.00        7     0.00     0.00  __subdf3
+  0.00      2.00     0.00        7     0.00     0.00  alt_find_dev
+  0.00      2.00     0.00        7     0.00     0.00  kad_len
+  0.00      2.00     0.00        6     0.00     0.00  __fixdfsi
+  0.00      2.00     0.00        6     0.00     0.00  close
+  0.00      2.00     0.00        6     0.00     0.00  kad_copy_dim1
+  0.00      2.00     0.00        5     0.00     0.00  __sclose
+  0.00      2.00     0.00        5     0.00     0.00  __sfp_lock_acquire
+  0.00      2.00     0.00        5     0.00     0.00  __sfp_lock_release
+  0.00      2.00     0.00        5     0.00     0.00  _close_r
+  0.00      2.00     0.00        5     0.00     0.00  _fclose_r
+  0.00      2.00     0.00        5     0.00     0.00  alt_avalon_timer_sc_irq
+  0.00      2.00     0.00        5     0.00     0.00  alt_get_fd
+  0.00      2.00     0.00        5     0.00     0.00  alt_read_16bit_query_entry
+  0.00      2.00     0.00        5     0.00     0.00  alt_tick
+  0.00      2.00     0.00        5     0.00     0.00  open
+  0.00      2.00     0.00        4     0.00     0.00  __adddf3
+  0.00      2.00     0.00        4     0.00     0.00  __muldi3
+  0.00      2.00     0.00        4     0.00     0.00  alt_dev_llist_insert
+  0.00      2.00     0.00        4     0.00     0.00  altera_avalon_jtag_uart_close
+  0.00      2.00     0.00        4     0.00     0.00  altera_avalon_jtag_uart_close_fd
+  0.00      2.00     0.00        4     0.00     0.00  altera_avalon_jtag_uart_timeout
+  0.00      2.00     0.00        3     0.00     0.00  __eqdf2
+  0.00      2.00     0.00        3     0.00     0.00  __smakebuf_r
+  0.00      2.00     0.00        3     0.00     0.00  alt_dev_reg
+  0.00      2.00     0.00        3     0.00     0.00  alt_file_locked
+  0.00      2.00     0.00        3     0.00     0.00  alt_load_section
+  0.00      2.00     0.00        3     0.00     0.00  alt_open_fd
+  0.00      2.00     0.00        3     0.00     0.00  check_directory_header
+  0.00      2.00     0.00        3     0.00     0.00  check_file_header
+  0.00      2.00     0.00        3     0.00     0.00  kad_op_ce_bin
+  0.00      2.00     0.00        3     0.00     0.00  kad_op_dropout
+  0.00      2.00     0.00        2     0.00     0.00  _Balloc
+  0.00      2.00     0.00        2     0.00     0.00  __fpclassifyd
+  0.00      2.00     0.00        2     0.00     0.00  __gtdf2
+  0.00      2.00     0.00        2     0.00     0.00  __ltdf2
+  0.00      2.00     0.00        2     0.00     0.00  __modsi3
+  0.00      2.00     0.00        2     0.00     0.00  __sflags
+  0.00      2.00     0.00        2     0.00     0.00  __sfp
+  0.00      2.00     0.00        2     0.00     0.00  _cleanup_r
+  0.00      2.00     0.00        2     0.00     0.00  _fopen_r
+  0.00      2.00     0.00        2     0.00     0.00  _fstat_r
+  0.00      2.00     0.00        2     0.00     0.00  _open_r
+  0.00      2.00     0.00        2     0.00     0.00  alt_alarm_start
+  0.00      2.00     0.00        2     0.00     0.00  alt_find_file
+  0.00      2.00     0.00        2     0.00     0.00  alt_ic_irq_enable
+  0.00      2.00     0.00        2     0.00     0.00  alt_ic_isr_register
+  0.00      2.00     0.00        2     0.00     0.00  alt_iic_isr_register
+  0.00      2.00     0.00        2     0.00     0.00  alt_ro_zipfs_fstat
+  0.00      2.00     0.00        2     0.00     0.00  alt_ro_zipfs_open
+  0.00      2.00     0.00        2     0.00     0.00  alt_write_flash_command_16bit_device_8bit_mode
+  0.00      2.00     0.00        2     0.00     0.00  fclose
+  0.00      2.00     0.00        2     0.00     0.00  find_file_entry_by_name
+  0.00      2.00     0.00        2     0.00     0.00  fopen
+  0.00      2.00     0.00        2     0.00     0.00  fstat
+  0.00      2.00     0.00        2     0.00     0.00  kad_mark_back
+  0.00      2.00     0.00        2     0.00     0.00  kad_splitmix64
+  0.00      2.00     0.00        2     0.00     0.00  kann_feed_dim
+  0.00      2.00     0.00        1     0.00     0.00  _Bfree
+  0.00      2.00     0.00        1     0.00     0.00  __call_exitprocs
+  0.00      2.00     0.00        1     0.00     0.00  __d2b
+  0.00      2.00     0.00        1     0.00     0.00  __extendsfdf2
+  0.00      2.00     0.00        1     0.00     0.00  __lo0bits
+  0.00      2.00     0.00        1     0.00     0.00  __register_exitproc
+  0.00      2.00     0.00        1     0.00     0.00  __sfmoreglue
+  0.00      2.00     0.00        1     0.00     0.00  __sinit
+  0.00      2.00     0.00        1     0.00     0.00  __swsetup_r
+  0.00      2.00     0.00        1     0.00     0.00  _do_ctors
+  0.00      2.00     0.00        1     0.00     0.00  _do_dtors
+  0.00      2.00     0.00        1     0.00     0.00  _dtoa_r
+  0.00      2.00     0.00        1     0.00     0.00  _exit
+  0.00      2.00     0.00        1     0.00     0.00  _fwalk_reent
+  0.00      2.00     0.00        1     0.00     0.00  alt_avalon_timer_sc_init
+  0.00      2.00     0.00        1     0.00     0.00  alt_check_primary_table
+  0.00      2.00     0.00        1     0.00     0.00  alt_dcache_flush_all
+  0.00      2.00     0.00        1     0.00     0.00  alt_flash_cfi_init
+  0.00      2.00     0.00        1     0.00     0.00  alt_flash_device_register
+  0.00      2.00     0.00        1     0.00     0.00  alt_fs_reg
+  0.00      2.00     0.00        1     0.00     0.00  alt_icache_flush
+  0.00      2.00     0.00        1     0.00     0.00  alt_icache_flush_all
+  0.00      2.00     0.00        1     0.00     0.00  alt_io_redirect
+  0.00      2.00     0.00        1     0.00     0.00  alt_irq_init
+  0.00      2.00     0.00        1     0.00     0.00  alt_load
+  0.00      2.00     0.00        1     0.00     2.00  alt_main
+  0.00      2.00     0.00        1     0.00     0.00  alt_read_cfi_table
+  0.00      2.00     0.00        1     0.00     0.00  alt_read_cfi_width
+  0.00      2.00     0.00        1     0.00     0.00  alt_ro_zipfs_check_valid
+  0.00      2.00     0.00        1     0.00     0.00  alt_set_flash_algorithm_func
+  0.00      2.00     0.00        1     0.00     0.00  alt_set_flash_width_func
+  0.00      2.00     0.00        1     0.00     0.00  alt_sys_init
+  0.00      2.00     0.00        1     0.00     0.00  alt_up_char_buffer_clear
+  0.00      2.00     0.00        1     0.00     0.00  alt_up_char_buffer_init
+  0.00      2.00     0.00        1     0.00     0.00  alt_up_char_buffer_open_dev
+  0.00      2.00     0.00        1     0.00     0.00  alt_up_pixel_buffer_dma_clear_screen
+  0.00      2.00     0.00        1     0.00     0.00  alt_up_pixel_buffer_dma_open_dev
+  0.00      2.00     0.00        1     0.00     0.00  alt_write_flash_command_8bit_device_8bit_mode
+  0.00      2.00     0.00        1     0.00     0.00  altera_avalon_jtag_uart_init
+  0.00      2.00     0.00        1     0.00     0.00  altera_nios2_qsys_irq_init
+  0.00      2.00     0.00        1     0.00     0.00  atexit
+  0.00      2.00     0.00        1     0.00     0.00  check_directory_table
+  0.00      2.00     0.00        1     0.00     0.00  exit
+  0.00      2.00     0.00        1     0.00     0.00  find_directory_entry
+  0.00      2.00     0.00        1     0.00     0.02  kad_allocate_internal
+  0.00      2.00     0.00        1     0.00     0.00  kad_delete
+  0.00      2.00     0.00        1     0.00     0.00  kad_ext_sync
+  0.00      2.00     0.00        1     0.00     0.04  kad_load
+  0.00      2.00     0.00        1     0.00     0.00  kad_size_const
+  0.00      2.00     0.00        1     0.00     0.00  kad_size_var
+  0.00      2.00     0.00        1     0.00     0.00  kad_srand
+  0.00      2.00     0.00        1     0.00     0.00  kad_trap_fe
+  0.00      2.00     0.00        1     0.00     0.00  kann_data_free
+  0.00      2.00     0.00        1     0.00     0.00  kann_data_read
+  0.00      2.00     0.00        1     0.00     0.00  kann_delete
+  0.00      2.00     0.00        1     0.00     0.00  kann_delete_unrolled
+  0.00      2.00     0.00        1     0.00     0.04  kann_load
+  0.00      2.00     0.00        1     0.00     0.04  kann_load_fp
+  0.00      2.00     0.00        1     0.00     0.00  kann_switch
+  0.00      2.00     0.00        1     0.00     0.00  kann_switch_core
+  0.00      2.00     0.00        1     0.00     2.00  main
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 32 byte(s) for 50.00% of 2.00 seconds
+
+index % time    self  children    called     name
+                0.00    2.00       1/1           _start [3]
+[1]    100.0    0.00    2.00       1         alt_main [1]
+                0.00    2.00       1/1           main [2]
+                0.00    0.00       1/1           _do_ctors [469]
+                0.00    0.00       1/1           alt_io_redirect [107]
+                0.00    0.00       1/1           alt_irq_init [108]
+                0.00    0.00       1/1           alt_sys_init [115]
+                0.00    0.00       1/1           exit [126]
+                0.00    0.00       1/1           atexit [124]
+                0.00    0.00       1/6           close [65]
+                0.00    0.00       1/1           __register_exitproc [465]
+-----------------------------------------------
+                0.00    2.00       1/1           alt_main [1]
+[2]    100.0    0.00    2.00       1         main [2]
+                0.00    1.93     100/100         kann_apply1 [8]
+                0.00    0.04       1/1           kann_load [12]
+                0.03    0.00   78401/5177389     __mulsf3 [4]
+                0.00    0.00   78400/78400       __fixunssfsi [400]
+                0.00    0.00     900/86700       __gtsf2 [398]
+                0.00    0.00     200/200         alt_up_char_buffer_draw [39]
+                0.00    0.00     200/93323       strlen [23]
+                0.00    0.00     104/104         printf [46]
+                0.00    0.00       2/2           kann_feed_dim [98]
+                0.00    0.00       2/998         __floatsisf [414]
+                0.00    0.00       2/416         __divsi3 [419]
+                0.00    0.00       1/1           alt_up_pixel_buffer_dma_open_dev [120]
+                0.00    0.00       1/1           __extendsfdf2 [463]
+                0.00    0.00       1/2001        __divsf3 [410]
+                0.00    0.00       1/1           alt_up_pixel_buffer_dma_clear_screen [119]
+                0.00    0.00       1/1           kad_trap_fe [133]
+                0.00    0.00       1/1           kann_data_free [134]
+                0.00    0.00       1/1           kann_switch [138]
+                0.00    0.00       1/1           kad_srand [132]
+                0.00    0.00       1/1           kann_data_read [135]
+                0.00    0.00       1/1           kann_delete [136]
+                0.00    0.00       1/1           alt_up_char_buffer_open_dev [118]
+                0.00    0.00       1/1           alt_up_char_buffer_clear [116]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]    100.0    0.00    2.00                 _start [3]
+                0.00    2.00       1/1           alt_main [1]
+                0.00    0.00       1/1           alt_load [109]
+-----------------------------------------------
+                0.00    0.00    7400/5177389     kad_saxpy_inlined [21]
+                0.00    0.00    9988/5177389     __ieee754_expf [18]
+                0.03    0.00   78401/5177389     main [2]
+                1.96    0.00 5081600/5177389     kad_sdot [5]
+[4]    100.0    2.00    0.00 5177389         __mulsf3 [4]
+-----------------------------------------------
+                0.00    1.96    7400/7400        kad_sgemm_simple [7]
+[5]     98.1    0.00    1.96    7400         kad_sdot [5]
+                1.96    0.00 5081600/5177389     __mulsf3 [4]
+                0.00    0.00 5081600/5100396     __addsf3 [395]
+-----------------------------------------------
+                0.00    0.02       2/206         kad_allocate_internal [15]
+                0.00    0.04       4/206         kad_load [11]
+                0.00    1.91     200/206         kad_eval_marked [10]
+[6]     98.1    0.00    1.96     206         kad_op_cmul [6]
+                0.00    1.96     200/200         kad_sgemm_simple [7]
+                0.00    0.00     412/416         __divsi3 [419]
+                0.00    0.00     412/1165        kad_len [29]
+                0.00    0.00     200/225         memset [38]
+-----------------------------------------------
+                0.00    1.96     200/200         kad_op_cmul [6]
+[7]     98.1    0.00    1.96     200         kad_sgemm_simple [7]
+                0.00    1.96    7400/7400        kad_sdot [5]
+                0.00    0.00    7400/5100396     __addsf3 [395]
+-----------------------------------------------
+                0.00    1.93     100/100         main [2]
+[8]     96.6    0.00    1.93     100         kann_apply1 [8]
+                0.00    1.91     100/100         kad_eval_at [9]
+                0.00    0.02     100/100         kad_sync_dim [14]
+                0.00    0.00     100/100         kann_find [53]
+                0.00    0.00     100/100         kann_feed_bind [52]
+-----------------------------------------------
+                0.00    1.91     100/100         kann_apply1 [8]
+[9]     95.6    0.00    1.91     100         kad_eval_at [9]
+                0.00    1.91     100/100         kad_eval_marked [10]
+-----------------------------------------------
+                0.00    1.91     100/100         kad_eval_at [9]
+[10]    95.6    0.00    1.91     100         kad_eval_marked [10]
+                0.00    1.91     200/206         kad_op_cmul [6]
+                0.00    0.00     100/103         kad_op_sigm [17]
+                0.00    0.00     200/206         kad_op_add [19]
+                0.00    0.00     100/103         kad_op_relu [48]
+                0.00    0.00     100/100         kad_propagate_marks [51]
+                0.00    0.00     100/103         kad_op_select [49]
+-----------------------------------------------
+                0.00    0.04       1/1           kann_load_fp [13]
+[11]     1.9    0.00    0.04       1         kad_load [11]
+                0.00    0.04       4/206         kad_op_cmul [6]
+                0.00    0.00       2/103         kad_op_sigm [17]
+                0.00    0.00       4/206         kad_op_add [19]
+                0.00    0.00      16/16          kad_load1 [61]
+                0.00    0.00       2/3           kad_op_dropout [83]
+                0.00    0.00       2/3           kad_op_ce_bin [82]
+                0.00    0.00       2/103         kad_op_relu [48]
+                0.00    0.00       2/103         kad_op_select [49]
+                0.00    0.00       1/2           kad_mark_back [96]
+                0.00    0.00       1/106         malloc [43]
+                0.00    0.00       1/1052        _malloc_r [412]
+                0.00    0.00       1/126         fread [40]
+-----------------------------------------------
+                0.00    0.04       1/1           main [2]
+[12]     1.9    0.00    0.04       1         kann_load [12]
+                0.00    0.04       1/1           kann_load_fp [13]
+                0.00    0.00       1/2           _fopen_r [457]
+                0.00    0.00       1/2           fopen [94]
+                0.00    0.00       1/41          strcmp [54]
+                0.00    0.00       1/5           _fclose_r [444]
+                0.00    0.00       1/2           fclose [92]
+-----------------------------------------------
+                0.00    0.04       1/1           kann_load [12]
+[13]     1.9    0.00    0.04       1         kann_load_fp [13]
+                0.00    0.04       1/1           kad_load [11]
+                0.00    0.00       3/126         fread [40]
+                0.00    0.00       2/106         malloc [43]
+                0.00    0.00       2/1052        _malloc_r [412]
+                0.00    0.00       2/28          calloc [57]
+                0.00    0.00       2/31          _calloc_r [435]
+                0.00    0.00       1/1           kad_ext_sync [129]
+                0.00    0.00       1/1           kad_size_var [131]
+                0.00    0.00       1/1           kad_size_const [130]
+                0.00    0.00       1/78304       strncmp [25]
+-----------------------------------------------
+                0.00    0.02     100/100         kann_apply1 [8]
+[14]     1.0    0.00    0.02     100         kad_sync_dim [14]
+                0.00    0.02       1/1           kad_allocate_internal [15]
+-----------------------------------------------
+                0.00    0.02       1/1           kad_sync_dim [14]
+[15]     1.0    0.00    0.02       1         kad_allocate_internal [15]
+                0.00    0.02       2/206         kad_op_cmul [6]
+                0.00    0.00       1/103         kad_op_sigm [17]
+                0.00    0.00       2/206         kad_op_add [19]
+                0.00    0.00      18/34          realloc [55]
+                0.00    0.00      18/34          _realloc_r [434]
+                0.00    0.00      18/1052        _malloc_r [412]
+                0.00    0.00      18/1165        kad_len [29]
+                0.00    0.00       1/2           kad_mark_back [96]
+                0.00    0.00       1/3           kad_op_dropout [83]
+                0.00    0.00       1/3           kad_op_ce_bin [82]
+                0.00    0.00       1/103         kad_op_relu [48]
+                0.00    0.00       1/103         kad_op_select [49]
+-----------------------------------------------
+                0.00    0.00    1000/1000        kad_op_sigm [17]
+[16]     0.2    0.00    0.00    1000         expf [16]
+                0.00    0.00    1000/1000        __ieee754_expf [18]
+                0.00    0.00    1000/86700       __gtsf2 [398]
+                0.00    0.00    1000/1000        finitef [31]
+                0.00    0.00    1000/1000        __lesf2 [413]
+-----------------------------------------------
+                0.00    0.00       1/103         kad_allocate_internal [15]
+                0.00    0.00       2/103         kad_load [11]
+                0.00    0.00     100/103         kad_eval_marked [10]
+[17]     0.2    0.00    0.00     103         kad_op_sigm [17]
+                0.00    0.00    1000/1000        expf [16]
+                0.00    0.00    1000/2001        __divsf3 [410]
+                0.00    0.00    1000/5100396     __addsf3 [395]
+                0.00    0.00     103/1165        kad_len [29]
+                0.00    0.00       1/6           kad_copy_dim1 [66]
+-----------------------------------------------
+                0.00    0.00    1000/1000        expf [16]
+[18]     0.2    0.00    0.00    1000         __ieee754_expf [18]
+                0.00    0.00    9988/5177389     __mulsf3 [4]
+                0.00    0.00    8997/8997        __subsf3 [407]
+                0.00    0.00    2996/5100396     __addsf3 [395]
+                0.00    0.00    1000/2001        __divsf3 [410]
+                0.00    0.00     996/79396       __fixsfsi [399]
+                0.00    0.00     996/998         __floatsisf [414]
+-----------------------------------------------
+                0.00    0.00       2/206         kad_allocate_internal [15]
+                0.00    0.00       4/206         kad_load [11]
+                0.00    0.00     200/206         kad_eval_marked [10]
+[19]     0.1    0.00    0.00     206         kad_op_add [19]
+                0.00    0.00     200/200         kad_saxpy [20]
+                0.00    0.00     412/1165        kad_len [29]
+                0.00    0.00     200/2425        memcpy [28]
+                0.00    0.00       2/6           kad_copy_dim1 [66]
+                0.00    0.00       2/2           __modsi3 [453]
+-----------------------------------------------
+                0.00    0.00     200/200         kad_op_add [19]
+[20]     0.1    0.00    0.00     200         kad_saxpy [20]
+                0.00    0.00     200/200         kad_saxpy_inlined [21]
+-----------------------------------------------
+                0.00    0.00     200/200         kad_saxpy [20]
+[21]     0.1    0.00    0.00     200         kad_saxpy_inlined [21]
+                0.00    0.00    7400/5177389     __mulsf3 [4]
+                0.00    0.00    7400/5100396     __addsf3 [395]
+-----------------------------------------------
+[22]     0.0    0.00    0.00     104+208     <cycle 1 as a whole> [22]
+                0.00    0.00     208             ___vfprintf_internal_r <cycle 1> [422]
+                0.00    0.00     104             __sbprintf <cycle 1> [427]
+-----------------------------------------------
+                0.00    0.00       2/93323       alt_ro_zipfs_open [90]
+                0.00    0.00       2/93323       alt_find_file [85]
+                0.00    0.00       5/93323       find_file_entry_by_name [93]
+                0.00    0.00       7/93323       alt_find_dev [63]
+                0.00    0.00     101/93323       kann_data_read [135]
+                0.00    0.00     200/93323       main [2]
+                0.00    0.00     210/93323       ___vfprintf_internal_r <cycle 1> [422]
+                0.00    0.00     884/93323       _strdup_r [415]
+                0.00    0.00   91912/93323       _strtod_r [402]
+[23]     0.0    0.00    0.00   93323         strlen [23]
+-----------------------------------------------
+                0.00    0.00   78400/78400       kann_data_read [135]
+[24]     0.0    0.00    0.00   78400         strtod [24]
+-----------------------------------------------
+                0.00    0.00       1/78304       kann_load_fp [13]
+                0.00    0.00       3/78304       find_file_entry_by_name [93]
+                0.00    0.00   78300/78304       _strtod_r [402]
+[25]     0.0    0.00    0.00   78304         strncmp [25]
+-----------------------------------------------
+                0.00    0.00      17/4661        find_file_entry_by_name [93]
+                0.00    0.00    4644/4661        find_file_entry [34]
+[26]     0.0    0.00    0.00    4661         read_half_word [26]
+-----------------------------------------------
+                0.00    0.00      10/3546        find_file_entry_by_name [93]
+                0.00    0.00      20/3546        read_word_inc [60]
+                0.00    0.00      33/3546        read_half_word_inc [56]
+                0.00    0.00    3483/3546        find_file_entry [34]
+[27]     0.0    0.00    0.00    3546         read_word [27]
+-----------------------------------------------
+                0.00    0.00       6/2425        kad_copy_dim1 [66]
+                0.00    0.00     100/2425        kad_op_select [49]
+                0.00    0.00     106/2425        altera_avalon_jtag_uart_write [44]
+                0.00    0.00     200/2425        kad_op_add [19]
+                0.00    0.00     326/2425        _fread_r [425]
+                0.00    0.00     351/2425        _fgets_r [432]
+                0.00    0.00     452/2425        alt_ro_zipfs_read [35]
+                0.00    0.00     884/2425        _strdup_r [415]
+[28]     0.0    0.00    0.00    2425         memcpy [28]
+-----------------------------------------------
+                0.00    0.00       1/1165        kad_size_const [130]
+                0.00    0.00       3/1165        kad_op_dropout [83]
+                0.00    0.00       4/1165        kad_size_var [131]
+                0.00    0.00       4/1165        kad_op_ce_bin [82]
+                0.00    0.00      18/1165        kad_allocate_internal [15]
+                0.00    0.00     103/1165        kad_op_sigm [17]
+                0.00    0.00     103/1165        kad_op_relu [48]
+                0.00    0.00     105/1165        kad_op_select [49]
+                0.00    0.00     412/1165        kad_op_add [19]
+                0.00    0.00     412/1165        kad_op_cmul [6]
+[29]     0.0    0.00    0.00    1165         kad_len [29]
+-----------------------------------------------
+                0.00    0.00       1/1076        kann_delete_unrolled [137]
+                0.00    0.00       3/1076        kann_delete [136]
+                0.00    0.00      83/1076        kad_delete [128]
+                0.00    0.00     989/1076        kann_data_free [134]
+[30]     0.0    0.00    0.00    1076         free [30]
+-----------------------------------------------
+                0.00    0.00    1000/1000        expf [16]
+[31]     0.0    0.00    0.00    1000         finitef [31]
+-----------------------------------------------
+                0.00    0.00     884/884         kann_data_read [135]
+[32]     0.0    0.00    0.00     884         strdup [32]
+-----------------------------------------------
+                0.00    0.00       6/725         _realloc_r [434]
+                0.00    0.00     719/725         __sfvwrite_r [420]
+[33]     0.0    0.00    0.00     725         memmove [33]
+-----------------------------------------------
+                0.00    0.00       2/454         alt_ro_zipfs_fstat [89]
+                0.00    0.00     452/454         alt_ro_zipfs_read [35]
+[34]     0.0    0.00    0.00     454         find_file_entry [34]
+                0.00    0.00    4644/4661        read_half_word [26]
+                0.00    0.00    3483/3546        read_word [27]
+-----------------------------------------------
+                0.00    0.00     452/452         read [36]
+[35]     0.0    0.00    0.00     452         alt_ro_zipfs_read [35]
+                0.00    0.00     452/2425        memcpy [28]
+                0.00    0.00     452/454         find_file_entry [34]
+-----------------------------------------------
+                0.00    0.00     452/452         _read_r [416]
+[36]     0.0    0.00    0.00     452         read [36]
+                0.00    0.00     452/452         alt_ro_zipfs_read [35]
+-----------------------------------------------
+                0.00    0.00     351/351         _fgets_r [432]
+[37]     0.0    0.00    0.00     351         memchr [37]
+-----------------------------------------------
+                0.00    0.00       1/225         __sfmoreglue [466]
+                0.00    0.00       1/225         nios2_pcsample_init [378]
+                0.00    0.00       2/225         __sfp [455]
+                0.00    0.00       3/225         _cleanup_r [456]
+                0.00    0.00      18/225         _calloc_r [435]
+                0.00    0.00     200/225         kad_op_cmul [6]
+[38]     0.0    0.00    0.00     225         memset [38]
+-----------------------------------------------
+                0.00    0.00     200/200         main [2]
+[39]     0.0    0.00    0.00     200         alt_up_char_buffer_draw [39]
+-----------------------------------------------
+                0.00    0.00       1/126         kad_load [11]
+                0.00    0.00       3/126         kann_load_fp [13]
+                0.00    0.00     122/126         kad_load1 [61]
+[40]     0.0    0.00    0.00     126         fread [40]
+                0.00    0.00     126/126         _fread_r [425]
+-----------------------------------------------
+                0.00    0.00     111/111         alt_exception [148]
+[41]     0.0    0.00    0.00     111         alt_irq_handler [41]
+                0.00    0.00     106/106         altera_avalon_jtag_uart_irq [42]
+                0.00    0.00       5/5           alt_avalon_timer_sc_irq [67]
+-----------------------------------------------
+                0.00    0.00     106/106         alt_irq_handler [41]
+[42]     0.0    0.00    0.00     106         altera_avalon_jtag_uart_irq [42]
+-----------------------------------------------
+                0.00    0.00       1/106         kad_load [11]
+                0.00    0.00       2/106         kann_load_fp [13]
+                0.00    0.00       2/106         kad_load1 [61]
+                0.00    0.00     101/106         kann_data_read [135]
+[43]     0.0    0.00    0.00     106         malloc [43]
+-----------------------------------------------
+                0.00    0.00     104/104         altera_avalon_jtag_uart_write_fd [45]
+[44]     0.0    0.00    0.00     104         altera_avalon_jtag_uart_write [44]
+                0.00    0.00     106/2425        memcpy [28]
+-----------------------------------------------
+                0.00    0.00     104/104         write [47]
+[45]     0.0    0.00    0.00     104         altera_avalon_jtag_uart_write_fd [45]
+                0.00    0.00     104/104         altera_avalon_jtag_uart_write [44]
+-----------------------------------------------
+                0.00    0.00     104/104         main [2]
+[46]     0.0    0.00    0.00     104         printf [46]
+                0.00    0.00     104/104         __vfprintf_internal [429]
+                0.00    0.00     104/104         ___vfprintf_internal_r <cycle 1> [422]
+-----------------------------------------------
+                0.00    0.00     104/104         _write_r [431]
+[47]     0.0    0.00    0.00     104         write [47]
+                0.00    0.00     104/104         altera_avalon_jtag_uart_write_fd [45]
+-----------------------------------------------
+                0.00    0.00       1/103         kad_allocate_internal [15]
+                0.00    0.00       2/103         kad_load [11]
+                0.00    0.00     100/103         kad_eval_marked [10]
+[48]     0.0    0.00    0.00     103         kad_op_relu [48]
+                0.00    0.00    6400/86700       __gtsf2 [398]
+                0.00    0.00     103/1165        kad_len [29]
+                0.00    0.00       1/6           kad_copy_dim1 [66]
+-----------------------------------------------
+                0.00    0.00       1/103         kad_allocate_internal [15]
+                0.00    0.00       2/103         kad_load [11]
+                0.00    0.00     100/103         kad_eval_marked [10]
+[49]     0.0    0.00    0.00     103         kad_op_select [49]
+                0.00    0.00     105/1165        kad_len [29]
+                0.00    0.00     100/2425        memcpy [28]
+                0.00    0.00       1/6           kad_copy_dim1 [66]
+-----------------------------------------------
+                0.00    0.00     102/102         kann_data_read [135]
+[50]     0.0    0.00    0.00     102         fgets [50]
+-----------------------------------------------
+                0.00    0.00     100/100         kad_eval_marked [10]
+[51]     0.0    0.00    0.00     100         kad_propagate_marks [51]
+-----------------------------------------------
+                0.00    0.00     100/100         kann_apply1 [8]
+[52]     0.0    0.00    0.00     100         kann_feed_bind [52]
+-----------------------------------------------
+                0.00    0.00     100/100         kann_apply1 [8]
+[53]     0.0    0.00    0.00     100         kann_find [53]
+-----------------------------------------------
+                0.00    0.00       1/41          kann_data_read [135]
+                0.00    0.00       1/41          kann_load [12]
+                0.00    0.00      39/41          alt_up_char_buffer_init [117]
+[54]     0.0    0.00    0.00      41         strcmp [54]
+-----------------------------------------------
+                0.00    0.00       2/34          kad_op_dropout [83]
+                0.00    0.00      14/34          kann_data_read [135]
+                0.00    0.00      18/34          kad_allocate_internal [15]
+[55]     0.0    0.00    0.00      34         realloc [55]
+-----------------------------------------------
+                0.00    0.00      15/33          check_file_header [81]
+                0.00    0.00      18/33          check_directory_header [80]
+[56]     0.0    0.00    0.00      33         read_half_word_inc [56]
+                0.00    0.00      33/3546        read_word [27]
+-----------------------------------------------
+                0.00    0.00       1/28          kann_data_read [135]
+                0.00    0.00       2/28          kann_load_fp [13]
+                0.00    0.00      25/28          kad_load1 [61]
+[57]     0.0    0.00    0.00      28         calloc [57]
+-----------------------------------------------
+                0.00    0.00       2/22          alt_find_file [85]
+                0.00    0.00      20/22          alt_find_dev [63]
+[58]     0.0    0.00    0.00      22         memcmp [58]
+-----------------------------------------------
+                0.00    0.00       3/21          alt_check_primary_table [100]
+                0.00    0.00       8/21          alt_read_cfi_table [110]
+                0.00    0.00      10/21          alt_read_16bit_query_entry [69]
+[59]     0.0    0.00    0.00      21         alt_read_query_entry_16bit [59]
+-----------------------------------------------
+                0.00    0.00       4/20          check_directory_table [125]
+                0.00    0.00       4/20          find_directory_entry [127]
+                0.00    0.00       6/20          check_directory_header [80]
+                0.00    0.00       6/20          check_file_header [81]
+[60]     0.0    0.00    0.00      20         read_word_inc [60]
+                0.00    0.00      20/3546        read_word [27]
+-----------------------------------------------
+                0.00    0.00      16/16          kad_load [11]
+[61]     0.0    0.00    0.00      16         kad_load1 [61]
+                0.00    0.00     122/126         fread [40]
+                0.00    0.00      25/28          calloc [57]
+                0.00    0.00      25/31          _calloc_r [435]
+                0.00    0.00       2/106         malloc [43]
+                0.00    0.00       2/1052        _malloc_r [412]
+-----------------------------------------------
+                0.00    0.00       3/9           alt_open_fd [79]
+                0.00    0.00       6/9           close [65]
+[62]     0.0    0.00    0.00       9         alt_release_fd [62]
+-----------------------------------------------
+                0.00    0.00       1/7           alt_up_char_buffer_open_dev [118]
+                0.00    0.00       1/7           alt_up_pixel_buffer_dma_open_dev [120]
+                0.00    0.00       5/7           open [71]
+[63]     0.0    0.00    0.00       7         alt_find_dev [63]
+                0.00    0.00      20/22          memcmp [58]
+                0.00    0.00       7/93323       strlen [23]
+-----------------------------------------------
+                0.00    0.00       2/7           kann_feed_dim [98]
+                0.00    0.00       5/7           kad_ext_sync [129]
+[64]     0.0    0.00    0.00       7         kad_len [64]
+-----------------------------------------------
+                0.00    0.00       1/6           alt_main [1]
+                0.00    0.00       5/6           _close_r [443]
+[65]     0.0    0.00    0.00       6         close [65]
+                0.00    0.00       6/9           alt_release_fd [62]
+                0.00    0.00       4/4           altera_avalon_jtag_uart_close_fd [74]
+-----------------------------------------------
+                0.00    0.00       1/6           kad_op_sigm [17]
+                0.00    0.00       1/6           kad_op_select [49]
+                0.00    0.00       1/6           kad_op_dropout [83]
+                0.00    0.00       1/6           kad_op_relu [48]
+                0.00    0.00       2/6           kad_op_add [19]
+[66]     0.0    0.00    0.00       6         kad_copy_dim1 [66]
+                0.00    0.00       6/2425        memcpy [28]
+-----------------------------------------------
+                0.00    0.00       5/5           alt_irq_handler [41]
+[67]     0.0    0.00    0.00       5         alt_avalon_timer_sc_irq [67]
+                0.00    0.00       5/5           alt_tick [70]
+-----------------------------------------------
+                0.00    0.00       5/5           open [71]
+[68]     0.0    0.00    0.00       5         alt_get_fd [68]
+-----------------------------------------------
+                0.00    0.00       1/5           alt_check_primary_table [100]
+                0.00    0.00       4/5           alt_read_cfi_table [110]
+[69]     0.0    0.00    0.00       5         alt_read_16bit_query_entry [69]
+                0.00    0.00      10/21          alt_read_query_entry_16bit [59]
+-----------------------------------------------
+                0.00    0.00       5/5           alt_avalon_timer_sc_irq [67]
+[70]     0.0    0.00    0.00       5         alt_tick [70]
+                0.00    0.00       4/4           altera_avalon_jtag_uart_timeout [75]
+-----------------------------------------------
+                0.00    0.00       2/5           _open_r [459]
+                0.00    0.00       3/5           alt_open_fd [79]
+[71]     0.0    0.00    0.00       5         open [71]
+                0.00    0.00       5/7           alt_find_dev [63]
+                0.00    0.00       5/5           alt_get_fd [68]
+                0.00    0.00       3/3           alt_file_locked [77]
+                0.00    0.00       2/2           alt_ro_zipfs_open [90]
+                0.00    0.00       2/2           alt_find_file [85]
+-----------------------------------------------
+                0.00    0.00       1/4           alt_flash_device_register [103]
+                0.00    0.00       3/4           alt_dev_reg [76]
+[72]     0.0    0.00    0.00       4         alt_dev_llist_insert [72]
+-----------------------------------------------
+                0.00    0.00       4/4           altera_avalon_jtag_uart_close_fd [74]
+[73]     0.0    0.00    0.00       4         altera_avalon_jtag_uart_close [73]
+-----------------------------------------------
+                0.00    0.00       4/4           close [65]
+[74]     0.0    0.00    0.00       4         altera_avalon_jtag_uart_close_fd [74]
+                0.00    0.00       4/4           altera_avalon_jtag_uart_close [73]
+-----------------------------------------------
+                0.00    0.00       4/4           alt_tick [70]
+[75]     0.0    0.00    0.00       4         altera_avalon_jtag_uart_timeout [75]
+-----------------------------------------------
+                0.00    0.00       3/3           alt_sys_init [115]
+[76]     0.0    0.00    0.00       3         alt_dev_reg [76]
+                0.00    0.00       3/4           alt_dev_llist_insert [72]
+-----------------------------------------------
+                0.00    0.00       3/3           open [71]
+[77]     0.0    0.00    0.00       3         alt_file_locked [77]
+-----------------------------------------------
+                0.00    0.00       3/3           alt_load [109]
+[78]     0.0    0.00    0.00       3         alt_load_section [78]
+-----------------------------------------------
+                0.00    0.00       3/3           alt_io_redirect [107]
+[79]     0.0    0.00    0.00       3         alt_open_fd [79]
+                0.00    0.00       3/5           open [71]
+                0.00    0.00       3/9           alt_release_fd [62]
+-----------------------------------------------
+                0.00    0.00       3/3           check_directory_table [125]
+[80]     0.0    0.00    0.00       3         check_directory_header [80]
+                0.00    0.00      18/33          read_half_word_inc [56]
+                0.00    0.00       6/20          read_word_inc [60]
+-----------------------------------------------
+                0.00    0.00       3/3           find_directory_entry [127]
+[81]     0.0    0.00    0.00       3         check_file_header [81]
+                0.00    0.00      15/33          read_half_word_inc [56]
+                0.00    0.00       6/20          read_word_inc [60]
+-----------------------------------------------
+                0.00    0.00       1/3           kad_allocate_internal [15]
+                0.00    0.00       2/3           kad_load [11]
+[82]     0.0    0.00    0.00       3         kad_op_ce_bin [82]
+                0.00    0.00       4/1165        kad_len [29]
+-----------------------------------------------
+                0.00    0.00       1/3           kad_allocate_internal [15]
+                0.00    0.00       2/3           kad_load [11]
+[83]     0.0    0.00    0.00       3         kad_op_dropout [83]
+                0.00    0.00       3/1165        kad_len [29]
+                0.00    0.00       2/34          realloc [55]
+                0.00    0.00       2/34          _realloc_r [434]
+                0.00    0.00       1/1052        _malloc_r [412]
+                0.00    0.00       1/6           kad_copy_dim1 [66]
+-----------------------------------------------
+                0.00    0.00       1/2           altera_avalon_jtag_uart_init [122]
+                0.00    0.00       1/2           nios2_pcsample_init [378]
+[84]     0.0    0.00    0.00       2         alt_alarm_start [84]
+-----------------------------------------------
+                0.00    0.00       2/2           open [71]
+[85]     0.0    0.00    0.00       2         alt_find_file [85]
+                0.00    0.00       2/93323       strlen [23]
+                0.00    0.00       2/22          memcmp [58]
+-----------------------------------------------
+                0.00    0.00       2/2           alt_iic_isr_register [88]
+[86]     0.0    0.00    0.00       2         alt_ic_irq_enable [86]
+-----------------------------------------------
+                0.00    0.00       1/2           altera_avalon_jtag_uart_init [122]
+                0.00    0.00       1/2           alt_avalon_timer_sc_init [99]
+[87]     0.0    0.00    0.00       2         alt_ic_isr_register [87]
+                0.00    0.00       2/2           alt_iic_isr_register [88]
+-----------------------------------------------
+                0.00    0.00       2/2           alt_ic_isr_register [87]
+[88]     0.0    0.00    0.00       2         alt_iic_isr_register [88]
+                0.00    0.00       2/2           alt_ic_irq_enable [86]
+-----------------------------------------------
+                0.00    0.00       2/2           fstat [95]
+[89]     0.0    0.00    0.00       2         alt_ro_zipfs_fstat [89]
+                0.00    0.00       2/454         find_file_entry [34]
+-----------------------------------------------
+                0.00    0.00       2/2           open [71]
+[90]     0.0    0.00    0.00       2         alt_ro_zipfs_open [90]
+                0.00    0.00       2/2           find_file_entry_by_name [93]
+                0.00    0.00       2/93323       strlen [23]
+-----------------------------------------------
+                0.00    0.00       1/2           alt_read_cfi_table [110]
+                0.00    0.00       1/2           alt_read_cfi_width [111]
+[91]     0.0    0.00    0.00       2         alt_write_flash_command_16bit_device_8bit_mode [91]
+-----------------------------------------------
+                0.00    0.00       1/2           kann_data_read [135]
+                0.00    0.00       1/2           kann_load [12]
+[92]     0.0    0.00    0.00       2         fclose [92]
+-----------------------------------------------
+                0.00    0.00       2/2           alt_ro_zipfs_open [90]
+[93]     0.0    0.00    0.00       2         find_file_entry_by_name [93]
+                0.00    0.00      17/4661        read_half_word [26]
+                0.00    0.00      10/3546        read_word [27]
+                0.00    0.00       5/93323       strlen [23]
+                0.00    0.00       3/78304       strncmp [25]
+-----------------------------------------------
+                0.00    0.00       1/2           kann_data_read [135]
+                0.00    0.00       1/2           kann_load [12]
+[94]     0.0    0.00    0.00       2         fopen [94]
+-----------------------------------------------
+                0.00    0.00       2/2           _fstat_r [458]
+[95]     0.0    0.00    0.00       2         fstat [95]
+                0.00    0.00       2/2           alt_ro_zipfs_fstat [89]
+-----------------------------------------------
+                0.00    0.00       1/2           kad_allocate_internal [15]
+                0.00    0.00       1/2           kad_load [11]
+[96]     0.0    0.00    0.00       2         kad_mark_back [96]
+-----------------------------------------------
+                0.00    0.00       2/2           kad_srand [132]
+[97]     0.0    0.00    0.00       2         kad_splitmix64 [97]
+                0.00    0.00       4/4           __muldi3 [446]
+-----------------------------------------------
+                0.00    0.00       2/2           main [2]
+[98]     0.0    0.00    0.00       2         kann_feed_dim [98]
+                0.00    0.00       2/7           kad_len [64]
+                0.00    0.00       2/416         __divsi3 [419]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[99]     0.0    0.00    0.00       1         alt_avalon_timer_sc_init [99]
+                0.00    0.00       1/2           alt_ic_isr_register [87]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_read_cfi_table [110]
+[100]    0.0    0.00    0.00       1         alt_check_primary_table [100]
+                0.00    0.00       3/21          alt_read_query_entry_16bit [59]
+                0.00    0.00       1/5           alt_read_16bit_query_entry [69]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_load [109]
+[101]    0.0    0.00    0.00       1         alt_dcache_flush_all [101]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[102]    0.0    0.00    0.00       1         alt_flash_cfi_init [102]
+                0.00    0.00       1/1           alt_set_flash_width_func [114]
+                0.00    0.00       1/1           alt_read_cfi_width [111]
+                0.00    0.00       1/1           alt_set_flash_algorithm_func [113]
+                0.00    0.00       1/1           alt_read_cfi_table [110]
+                0.00    0.00       1/1           alt_flash_device_register [103]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+[103]    0.0    0.00    0.00       1         alt_flash_device_register [103]
+                0.00    0.00       1/4           alt_dev_llist_insert [72]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[104]    0.0    0.00    0.00       1         alt_fs_reg [104]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_icache_flush_all [106]
+[105]    0.0    0.00    0.00       1         alt_icache_flush [105]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_load [109]
+[106]    0.0    0.00    0.00       1         alt_icache_flush_all [106]
+                0.00    0.00       1/1           alt_icache_flush [105]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[107]    0.0    0.00    0.00       1         alt_io_redirect [107]
+                0.00    0.00       3/3           alt_open_fd [79]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[108]    0.0    0.00    0.00       1         alt_irq_init [108]
+                0.00    0.00       1/1           altera_nios2_qsys_irq_init [123]
+-----------------------------------------------
+                0.00    0.00       1/1           _start [3]
+[109]    0.0    0.00    0.00       1         alt_load [109]
+                0.00    0.00       3/3           alt_load_section [78]
+                0.00    0.00       1/1           alt_dcache_flush_all [101]
+                0.00    0.00       1/1           alt_icache_flush_all [106]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+[110]    0.0    0.00    0.00       1         alt_read_cfi_table [110]
+                0.00    0.00       8/21          alt_read_query_entry_16bit [59]
+                0.00    0.00       4/5           alt_read_16bit_query_entry [69]
+                0.00    0.00       1/2           alt_write_flash_command_16bit_device_8bit_mode [91]
+                0.00    0.00       1/1           alt_check_primary_table [100]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+[111]    0.0    0.00    0.00       1         alt_read_cfi_width [111]
+                0.00    0.00       1/1           alt_write_flash_command_8bit_device_8bit_mode [121]
+                0.00    0.00       1/2           alt_write_flash_command_16bit_device_8bit_mode [91]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[112]    0.0    0.00    0.00       1         alt_ro_zipfs_check_valid [112]
+                0.00    0.00       1/1           check_directory_table [125]
+                0.00    0.00       1/1           find_directory_entry [127]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+[113]    0.0    0.00    0.00       1         alt_set_flash_algorithm_func [113]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+[114]    0.0    0.00    0.00       1         alt_set_flash_width_func [114]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[115]    0.0    0.00    0.00       1         alt_sys_init [115]
+                0.00    0.00       3/3           alt_dev_reg [76]
+                0.00    0.00       1/1           alt_avalon_timer_sc_init [99]
+                0.00    0.00       1/1           alt_ro_zipfs_check_valid [112]
+                0.00    0.00       1/1           alt_up_char_buffer_init [117]
+                0.00    0.00       1/1           alt_fs_reg [104]
+                0.00    0.00       1/1           altera_avalon_jtag_uart_init [122]
+                0.00    0.00       1/1           alt_flash_cfi_init [102]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[116]    0.0    0.00    0.00       1         alt_up_char_buffer_clear [116]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[117]    0.0    0.00    0.00       1         alt_up_char_buffer_init [117]
+                0.00    0.00      39/41          strcmp [54]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[118]    0.0    0.00    0.00       1         alt_up_char_buffer_open_dev [118]
+                0.00    0.00       1/7           alt_find_dev [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[119]    0.0    0.00    0.00       1         alt_up_pixel_buffer_dma_clear_screen [119]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[120]    0.0    0.00    0.00       1         alt_up_pixel_buffer_dma_open_dev [120]
+                0.00    0.00       1/7           alt_find_dev [63]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_read_cfi_width [111]
+[121]    0.0    0.00    0.00       1         alt_write_flash_command_8bit_device_8bit_mode [121]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_sys_init [115]
+[122]    0.0    0.00    0.00       1         altera_avalon_jtag_uart_init [122]
+                0.00    0.00       1/2           alt_ic_isr_register [87]
+                0.00    0.00       1/2           alt_alarm_start [84]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_irq_init [108]
+[123]    0.0    0.00    0.00       1         altera_nios2_qsys_irq_init [123]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[124]    0.0    0.00    0.00       1         atexit [124]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_ro_zipfs_check_valid [112]
+[125]    0.0    0.00    0.00       1         check_directory_table [125]
+                0.00    0.00       4/20          read_word_inc [60]
+                0.00    0.00       3/3           check_directory_header [80]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[126]    0.0    0.00    0.00       1         exit [126]
+                0.00    0.00       1/1           _exit [472]
+                0.00    0.00       1/2           _cleanup_r [456]
+                0.00    0.00       1/1           _fwalk_reent [473]
+                0.00    0.00       1/1           __call_exitprocs [461]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_ro_zipfs_check_valid [112]
+[127]    0.0    0.00    0.00       1         find_directory_entry [127]
+                0.00    0.00       4/20          read_word_inc [60]
+                0.00    0.00       3/3           check_file_header [81]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_delete_unrolled [137]
+[128]    0.0    0.00    0.00       1         kad_delete [128]
+                0.00    0.00      83/1076        free [30]
+                0.00    0.00      83/1088        _free_r [411]
+                0.00    0.00      47/2116        __malloc_unlock [409]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_load_fp [13]
+[129]    0.0    0.00    0.00       1         kad_ext_sync [129]
+                0.00    0.00       5/7           kad_len [64]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_load_fp [13]
+[130]    0.0    0.00    0.00       1         kad_size_const [130]
+                0.00    0.00       1/1165        kad_len [29]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_load_fp [13]
+[131]    0.0    0.00    0.00       1         kad_size_var [131]
+                0.00    0.00       4/1165        kad_len [29]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[132]    0.0    0.00    0.00       1         kad_srand [132]
+                0.00    0.00       2/2           kad_splitmix64 [97]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[133]    0.0    0.00    0.00       1         kad_trap_fe [133]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[134]    0.0    0.00    0.00       1         kann_data_free [134]
+                0.00    0.00     989/1076        free [30]
+                0.00    0.00     989/2116        __malloc_unlock [409]
+                0.00    0.00     989/1088        _free_r [411]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[135]    0.0    0.00    0.00       1         kann_data_read [135]
+                0.00    0.00   78400/78400       _strtod_r [402]
+                0.00    0.00   78400/78400       __truncdfsf2 [401]
+                0.00    0.00   78400/78400       strtod [24]
+                0.00    0.00     884/884         strdup [32]
+                0.00    0.00     884/884         _strdup_r [415]
+                0.00    0.00     104/1052        _malloc_r [412]
+                0.00    0.00     102/102         _fgets_r [432]
+                0.00    0.00     102/102         fgets [50]
+                0.00    0.00     101/106         malloc [43]
+                0.00    0.00     101/93323       strlen [23]
+                0.00    0.00      14/34          realloc [55]
+                0.00    0.00      14/34          _realloc_r [434]
+                0.00    0.00       1/2           _fopen_r [457]
+                0.00    0.00       1/2           fopen [94]
+                0.00    0.00       1/28          calloc [57]
+                0.00    0.00       1/31          _calloc_r [435]
+                0.00    0.00       1/41          strcmp [54]
+                0.00    0.00       1/5           _fclose_r [444]
+                0.00    0.00       1/2           fclose [92]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[136]    0.0    0.00    0.00       1         kann_delete [136]
+                0.00    0.00       3/1076        free [30]
+                0.00    0.00       3/2116        __malloc_unlock [409]
+                0.00    0.00       3/1088        _free_r [411]
+                0.00    0.00       1/1           kann_delete_unrolled [137]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_delete [136]
+[137]    0.0    0.00    0.00       1         kann_delete_unrolled [137]
+                0.00    0.00       1/1076        free [30]
+                0.00    0.00       1/2116        __malloc_unlock [409]
+                0.00    0.00       1/1           kad_delete [128]
+                0.00    0.00       1/1088        _free_r [411]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[138]    0.0    0.00    0.00       1         kann_switch [138]
+                0.00    0.00       1/1           kann_switch_core [139]
+-----------------------------------------------
+                0.00    0.00       1/1           kann_switch [138]
+[139]    0.0    0.00    0.00       1         kann_switch_core [139]
+-----------------------------------------------
+                0.00    0.00    1000/5100396     kad_op_sigm [17]
+                0.00    0.00    2996/5100396     __ieee754_expf [18]
+                0.00    0.00    7400/5100396     kad_saxpy_inlined [21]
+                0.00    0.00    7400/5100396     kad_sgemm_simple [7]
+                0.00    0.00 5081600/5100396     kad_sdot [5]
+[395]    0.0    0.00    0.00 5100396         __addsf3 [395]
+                0.00    0.00   73491/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00     208/170420      ___vfprintf_internal_r <cycle 1> [422]
+                0.00    0.00  170212/170420      _strtod_r [402]
+[396]    0.0    0.00    0.00  170420         _localeconv_r [396]
+-----------------------------------------------
+                0.00    0.00       2/90707       __subdf3 [438]
+                0.00    0.00       3/90707       __floatsidf [437]
+                0.00    0.00     998/90707       __floatsisf [414]
+                0.00    0.00    2183/90707       __subsf3 [407]
+                0.00    0.00   14030/90707       __floatunsidf [405]
+                0.00    0.00   73491/90707       __addsf3 [395]
+[397]    0.0    0.00    0.00   90707         __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00     900/86700       main [2]
+                0.00    0.00    1000/86700       expf [16]
+                0.00    0.00    6400/86700       kad_op_relu [48]
+                0.00    0.00   78400/86700       __fixunssfsi [400]
+[398]    0.0    0.00    0.00   86700         __gtsf2 [398]
+-----------------------------------------------
+                0.00    0.00     996/79396       __ieee754_expf [18]
+                0.00    0.00   78400/79396       __fixunssfsi [400]
+[399]    0.0    0.00    0.00   79396         __fixsfsi [399]
+-----------------------------------------------
+                0.00    0.00   78400/78400       main [2]
+[400]    0.0    0.00    0.00   78400         __fixunssfsi [400]
+                0.00    0.00   78400/79396       __fixsfsi [399]
+                0.00    0.00   78400/86700       __gtsf2 [398]
+-----------------------------------------------
+                0.00    0.00   78400/78400       kann_data_read [135]
+[401]    0.0    0.00    0.00   78400         __truncdfsf2 [401]
+-----------------------------------------------
+                0.00    0.00   78400/78400       kann_data_read [135]
+[402]    0.0    0.00    0.00   78400         _strtod_r [402]
+                0.00    0.00  170212/170420      _localeconv_r [396]
+                0.00    0.00   91912/93323       strlen [23]
+                0.00    0.00   78300/78304       strncmp [25]
+                0.00    0.00   14030/14030       __floatunsidf [405]
+                0.00    0.00   13612/13613       __divdf3 [406]
+-----------------------------------------------
+                0.00    0.00     378/55208       __udivdi3 [423]
+                0.00    0.00     378/55208       __umoddi3 [424]
+                0.00    0.00   54452/55208       __divdf3 [406]
+[403]    0.0    0.00    0.00   55208         __udivsi3 [403]
+-----------------------------------------------
+                0.00    0.00     378/55208       __udivdi3 [423]
+                0.00    0.00     378/55208       __umoddi3 [424]
+                0.00    0.00   54452/55208       __divdf3 [406]
+[404]    0.0    0.00    0.00   55208         __umodsi3 [404]
+-----------------------------------------------
+                0.00    0.00   14030/14030       _strtod_r [402]
+[405]    0.0    0.00    0.00   14030         __floatunsidf [405]
+                0.00    0.00   14030/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00       1/13613       _dtoa_r [471]
+                0.00    0.00   13612/13613       _strtod_r [402]
+[406]    0.0    0.00    0.00   13613         __divdf3 [406]
+                0.00    0.00   54452/55208       __udivsi3 [403]
+                0.00    0.00   54452/55208       __umodsi3 [404]
+-----------------------------------------------
+                0.00    0.00    8997/8997        __ieee754_expf [18]
+[407]    0.0    0.00    0.00    8997         __subsf3 [407]
+                0.00    0.00    2183/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00      12/2116        _realloc_r [434]
+                0.00    0.00    1052/2116        _free_r [411]
+                0.00    0.00    1052/2116        _malloc_r [412]
+[408]    0.0    0.00    0.00    2116         __malloc_lock [408]
+-----------------------------------------------
+                0.00    0.00       1/2116        kann_delete_unrolled [137]
+                0.00    0.00       2/2116        _fclose_r [444]
+                0.00    0.00       3/2116        kann_delete [136]
+                0.00    0.00      21/2116        _realloc_r [434]
+                0.00    0.00      47/2116        kad_delete [128]
+                0.00    0.00     989/2116        kann_data_free [134]
+                0.00    0.00    1053/2116        _malloc_r [412]
+[409]    0.0    0.00    0.00    2116         __malloc_unlock [409]
+-----------------------------------------------
+                0.00    0.00       1/2001        main [2]
+                0.00    0.00    1000/2001        __ieee754_expf [18]
+                0.00    0.00    1000/2001        kad_op_sigm [17]
+[410]    0.0    0.00    0.00    2001         __divsf3 [410]
+-----------------------------------------------
+                0.00    0.00       1/1088        kann_delete_unrolled [137]
+                0.00    0.00       1/1088        _malloc_r [412]
+                0.00    0.00       2/1088        _fclose_r [444]
+                0.00    0.00       3/1088        kann_delete [136]
+                0.00    0.00       9/1088        _realloc_r [434]
+                0.00    0.00      83/1088        kad_delete [128]
+                0.00    0.00     989/1088        kann_data_free [134]
+[411]    0.0    0.00    0.00    1088         _free_r [411]
+                0.00    0.00    1052/2116        __malloc_lock [408]
+-----------------------------------------------
+                0.00    0.00       1/1052        kad_op_dropout [83]
+                0.00    0.00       1/1052        kad_load [11]
+                0.00    0.00       1/1052        __sfmoreglue [466]
+                0.00    0.00       2/1052        kann_load_fp [13]
+                0.00    0.00       2/1052        kad_load1 [61]
+                0.00    0.00       2/1052        __smakebuf_r [448]
+                0.00    0.00       6/1052        _realloc_r [434]
+                0.00    0.00      18/1052        kad_allocate_internal [15]
+                0.00    0.00      31/1052        _calloc_r [435]
+                0.00    0.00     104/1052        kann_data_read [135]
+                0.00    0.00     884/1052        _strdup_r [415]
+[412]    0.0    0.00    0.00    1052         _malloc_r [412]
+                0.00    0.00    1053/2116        __malloc_unlock [409]
+                0.00    0.00    1052/2116        __malloc_lock [408]
+                0.00    0.00      86/86          _sbrk_r [433]
+                0.00    0.00       1/1088        _free_r [411]
+-----------------------------------------------
+                0.00    0.00    1000/1000        expf [16]
+[413]    0.0    0.00    0.00    1000         __lesf2 [413]
+-----------------------------------------------
+                0.00    0.00       2/998         main [2]
+                0.00    0.00     996/998         __ieee754_expf [18]
+[414]    0.0    0.00    0.00     998         __floatsisf [414]
+                0.00    0.00     998/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00     884/884         kann_data_read [135]
+[415]    0.0    0.00    0.00     884         _strdup_r [415]
+                0.00    0.00     884/1052        _malloc_r [412]
+                0.00    0.00     884/2425        memcpy [28]
+                0.00    0.00     884/93323       strlen [23]
+-----------------------------------------------
+                0.00    0.00     411/863         ___vfprintf_internal_r <cycle 1> [422]
+                0.00    0.00     452/863         __sread [417]
+[416]    0.0    0.00    0.00     863         _read_r [416]
+                0.00    0.00     452/452         read [36]
+                0.00    0.00     411/411         __sfvwrite_r [420]
+-----------------------------------------------
+                0.00    0.00     452/452         __srefill_r [418]
+[417]    0.0    0.00    0.00     452         __sread [417]
+                0.00    0.00     452/863         _read_r [416]
+-----------------------------------------------
+                0.00    0.00     200/452         _fread_r [425]
+                0.00    0.00     252/452         _fgets_r [432]
+[418]    0.0    0.00    0.00     452         __srefill_r [418]
+                0.00    0.00     452/452         __sread [417]
+                0.00    0.00       2/3           __smakebuf_r [448]
+-----------------------------------------------
+                0.00    0.00       2/416         main [2]
+                0.00    0.00       2/416         kann_feed_dim [98]
+                0.00    0.00     412/416         kad_op_cmul [6]
+[419]    0.0    0.00    0.00     416         __divsi3 [419]
+-----------------------------------------------
+                0.00    0.00     411/411         _read_r [416]
+[420]    0.0    0.00    0.00     411         __sfvwrite_r [420]
+                0.00    0.00     719/725         memmove [33]
+-----------------------------------------------
+                0.00    0.00     411/411         ___vfprintf_internal_r <cycle 1> [422]
+[421]    0.0    0.00    0.00     411         __sprint_r [421]
+-----------------------------------------------
+                                 104             __sbprintf <cycle 1> [427]
+                0.00    0.00     104/104         printf [46]
+[422]    0.0    0.00    0.00     208         ___vfprintf_internal_r <cycle 1> [422]
+                0.00    0.00     411/863         _read_r [416]
+                0.00    0.00     411/411         __sprint_r [421]
+                0.00    0.00     210/93323       strlen [23]
+                0.00    0.00     208/170420      _localeconv_r [396]
+                0.00    0.00     189/189         __umoddi3 [424]
+                0.00    0.00     189/189         __udivdi3 [423]
+                0.00    0.00       2/3           __eqdf2 [447]
+                0.00    0.00       2/2           __fpclassifyd [450]
+                0.00    0.00       1/1           _dtoa_r [471]
+                0.00    0.00       1/2           _cleanup_r [456]
+                0.00    0.00       1/1           __swsetup_r [468]
+                0.00    0.00       1/1           __sinit [467]
+                                 104             __sbprintf <cycle 1> [427]
+-----------------------------------------------
+                0.00    0.00     189/189         ___vfprintf_internal_r <cycle 1> [422]
+[423]    0.0    0.00    0.00     189         __udivdi3 [423]
+                0.00    0.00     378/55208       __udivsi3 [403]
+                0.00    0.00     378/55208       __umodsi3 [404]
+-----------------------------------------------
+                0.00    0.00     189/189         ___vfprintf_internal_r <cycle 1> [422]
+[424]    0.0    0.00    0.00     189         __umoddi3 [424]
+                0.00    0.00     378/55208       __udivsi3 [403]
+                0.00    0.00     378/55208       __umodsi3 [404]
+-----------------------------------------------
+                0.00    0.00     126/126         fread [40]
+[425]    0.0    0.00    0.00     126         _fread_r [425]
+                0.00    0.00     326/2425        memcpy [28]
+                0.00    0.00     200/452         __srefill_r [418]
+-----------------------------------------------
+                0.00    0.00       5/109         _fclose_r [444]
+                0.00    0.00     104/109         __sbprintf <cycle 1> [427]
+[426]    0.0    0.00    0.00     109         __sflush_r [426]
+                0.00    0.00     104/104         __swrite [428]
+                0.00    0.00     104/104         _write_r [431]
+-----------------------------------------------
+                                 104             ___vfprintf_internal_r <cycle 1> [422]
+[427]    0.0    0.00    0.00     104         __sbprintf <cycle 1> [427]
+                0.00    0.00     104/104         _fflush_r [430]
+                0.00    0.00     104/109         __sflush_r [426]
+                                 104             ___vfprintf_internal_r <cycle 1> [422]
+-----------------------------------------------
+                0.00    0.00     104/104         __sflush_r [426]
+[428]    0.0    0.00    0.00     104         __swrite [428]
+-----------------------------------------------
+                0.00    0.00     104/104         printf [46]
+[429]    0.0    0.00    0.00     104         __vfprintf_internal [429]
+-----------------------------------------------
+                0.00    0.00     104/104         __sbprintf <cycle 1> [427]
+[430]    0.0    0.00    0.00     104         _fflush_r [430]
+-----------------------------------------------
+                0.00    0.00     104/104         __sflush_r [426]
+[431]    0.0    0.00    0.00     104         _write_r [431]
+                0.00    0.00     104/104         write [47]
+-----------------------------------------------
+                0.00    0.00     102/102         kann_data_read [135]
+[432]    0.0    0.00    0.00     102         _fgets_r [432]
+                0.00    0.00     351/351         memchr [37]
+                0.00    0.00     351/2425        memcpy [28]
+                0.00    0.00     252/452         __srefill_r [418]
+-----------------------------------------------
+                0.00    0.00      86/86          _malloc_r [412]
+[433]    0.0    0.00    0.00      86         _sbrk_r [433]
+-----------------------------------------------
+                0.00    0.00       2/34          kad_op_dropout [83]
+                0.00    0.00      14/34          kann_data_read [135]
+                0.00    0.00      18/34          kad_allocate_internal [15]
+[434]    0.0    0.00    0.00      34         _realloc_r [434]
+                0.00    0.00      21/2116        __malloc_unlock [409]
+                0.00    0.00      12/2116        __malloc_lock [408]
+                0.00    0.00       9/1088        _free_r [411]
+                0.00    0.00       6/1052        _malloc_r [412]
+                0.00    0.00       6/725         memmove [33]
+-----------------------------------------------
+                0.00    0.00       1/31          kann_data_read [135]
+                0.00    0.00       2/31          kann_load_fp [13]
+                0.00    0.00       3/31          _Balloc [449]
+                0.00    0.00      25/31          kad_load1 [61]
+[435]    0.0    0.00    0.00      31         _calloc_r [435]
+                0.00    0.00      31/1052        _malloc_r [412]
+                0.00    0.00      18/225         memset [38]
+-----------------------------------------------
+                0.00    0.00       8/8           _dtoa_r [471]
+[436]    0.0    0.00    0.00       8         __muldf3 [436]
+-----------------------------------------------
+                0.00    0.00       7/7           _dtoa_r [471]
+[437]    0.0    0.00    0.00       7         __floatsidf [437]
+                0.00    0.00       3/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00       7/7           _dtoa_r [471]
+[438]    0.0    0.00    0.00       7         __subdf3 [438]
+                0.00    0.00       2/90707       __clzsi2 [397]
+-----------------------------------------------
+                0.00    0.00       6/6           _dtoa_r [471]
+[439]    0.0    0.00    0.00       6         __fixdfsi [439]
+-----------------------------------------------
+                0.00    0.00       5/5           _fclose_r [444]
+[440]    0.0    0.00    0.00       5         __sclose [440]
+-----------------------------------------------
+                0.00    0.00       5/5           _fclose_r [444]
+[441]    0.0    0.00    0.00       5         __sfp_lock_acquire [441]
+-----------------------------------------------
+                0.00    0.00       5/5           _fclose_r [444]
+[442]    0.0    0.00    0.00       5         __sfp_lock_release [442]
+-----------------------------------------------
+                0.00    0.00       5/5           _fclose_r [444]
+[443]    0.0    0.00    0.00       5         _close_r [443]
+                0.00    0.00       5/6           close [65]
+-----------------------------------------------
+                0.00    0.00       1/5           kann_data_read [135]
+                0.00    0.00       1/5           kann_load [12]
+                0.00    0.00       3/5           _fwalk_reent [473]
+[444]    0.0    0.00    0.00       5         _fclose_r [444]
+                0.00    0.00       5/5           __sclose [440]
+                0.00    0.00       5/5           _close_r [443]
+                0.00    0.00       5/109         __sflush_r [426]
+                0.00    0.00       5/5           __sfp_lock_release [442]
+                0.00    0.00       5/5           __sfp_lock_acquire [441]
+                0.00    0.00       2/2116        __malloc_unlock [409]
+                0.00    0.00       2/1088        _free_r [411]
+-----------------------------------------------
+                0.00    0.00       4/4           _dtoa_r [471]
+[445]    0.0    0.00    0.00       4         __adddf3 [445]
+-----------------------------------------------
+                0.00    0.00       4/4           kad_splitmix64 [97]
+[446]    0.0    0.00    0.00       4         __muldi3 [446]
+-----------------------------------------------
+                0.00    0.00       1/3           _dtoa_r [471]
+                0.00    0.00       2/3           ___vfprintf_internal_r <cycle 1> [422]
+[447]    0.0    0.00    0.00       3         __eqdf2 [447]
+-----------------------------------------------
+                0.00    0.00       1/3           __swsetup_r [468]
+                0.00    0.00       2/3           __srefill_r [418]
+[448]    0.0    0.00    0.00       3         __smakebuf_r [448]
+                0.00    0.00       2/1052        _malloc_r [412]
+                0.00    0.00       2/2           _fstat_r [458]
+-----------------------------------------------
+                0.00    0.00       1/2           _dtoa_r [471]
+                0.00    0.00       1/2           __d2b [462]
+[449]    0.0    0.00    0.00       2         _Balloc [449]
+                0.00    0.00       3/31          _calloc_r [435]
+-----------------------------------------------
+                0.00    0.00       2/2           ___vfprintf_internal_r <cycle 1> [422]
+[450]    0.0    0.00    0.00       2         __fpclassifyd [450]
+-----------------------------------------------
+                0.00    0.00       2/2           _dtoa_r [471]
+[451]    0.0    0.00    0.00       2         __gtdf2 [451]
+-----------------------------------------------
+                0.00    0.00       2/2           _dtoa_r [471]
+[452]    0.0    0.00    0.00       2         __ltdf2 [452]
+-----------------------------------------------
+                0.00    0.00       2/2           kad_op_add [19]
+[453]    0.0    0.00    0.00       2         __modsi3 [453]
+-----------------------------------------------
+                0.00    0.00       2/2           _fopen_r [457]
+[454]    0.0    0.00    0.00       2         __sflags [454]
+-----------------------------------------------
+                0.00    0.00       2/2           _fopen_r [457]
+[455]    0.0    0.00    0.00       2         __sfp [455]
+                0.00    0.00       2/225         memset [38]
+                0.00    0.00       1/1           __sfmoreglue [466]
+-----------------------------------------------
+                0.00    0.00       1/2           exit [126]
+                0.00    0.00       1/2           ___vfprintf_internal_r <cycle 1> [422]
+[456]    0.0    0.00    0.00       2         _cleanup_r [456]
+                0.00    0.00       3/225         memset [38]
+-----------------------------------------------
+                0.00    0.00       1/2           kann_data_read [135]
+                0.00    0.00       1/2           kann_load [12]
+[457]    0.0    0.00    0.00       2         _fopen_r [457]
+                0.00    0.00       2/2           __sflags [454]
+                0.00    0.00       2/2           _open_r [459]
+                0.00    0.00       2/2           __sfp [455]
+-----------------------------------------------
+                0.00    0.00       2/2           __smakebuf_r [448]
+[458]    0.0    0.00    0.00       2         _fstat_r [458]
+                0.00    0.00       2/2           fstat [95]
+-----------------------------------------------
+                0.00    0.00       2/2           _fopen_r [457]
+[459]    0.0    0.00    0.00       2         _open_r [459]
+                0.00    0.00       2/5           open [71]
+-----------------------------------------------
+                0.00    0.00       1/1           _dtoa_r [471]
+[460]    0.0    0.00    0.00       1         _Bfree [460]
+-----------------------------------------------
+                0.00    0.00       1/1           exit [126]
+[461]    0.0    0.00    0.00       1         __call_exitprocs [461]
+                0.00    0.00       1/1           _do_dtors [470]
+-----------------------------------------------
+                0.00    0.00       1/1           _dtoa_r [471]
+[462]    0.0    0.00    0.00       1         __d2b [462]
+                0.00    0.00       1/1           __lo0bits [464]
+                0.00    0.00       1/2           _Balloc [449]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[463]    0.0    0.00    0.00       1         __extendsfdf2 [463]
+-----------------------------------------------
+                0.00    0.00       1/1           __d2b [462]
+[464]    0.0    0.00    0.00       1         __lo0bits [464]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[465]    0.0    0.00    0.00       1         __register_exitproc [465]
+-----------------------------------------------
+                0.00    0.00       1/1           __sfp [455]
+[466]    0.0    0.00    0.00       1         __sfmoreglue [466]
+                0.00    0.00       1/1052        _malloc_r [412]
+                0.00    0.00       1/225         memset [38]
+-----------------------------------------------
+                0.00    0.00       1/1           ___vfprintf_internal_r <cycle 1> [422]
+[467]    0.0    0.00    0.00       1         __sinit [467]
+-----------------------------------------------
+                0.00    0.00       1/1           ___vfprintf_internal_r <cycle 1> [422]
+[468]    0.0    0.00    0.00       1         __swsetup_r [468]
+                0.00    0.00       1/3           __smakebuf_r [448]
+-----------------------------------------------
+                0.00    0.00       1/1           alt_main [1]
+[469]    0.0    0.00    0.00       1         _do_ctors [469]
+-----------------------------------------------
+                0.00    0.00       1/1           __call_exitprocs [461]
+[470]    0.0    0.00    0.00       1         _do_dtors [470]
+-----------------------------------------------
+                0.00    0.00       1/1           ___vfprintf_internal_r <cycle 1> [422]
+[471]    0.0    0.00    0.00       1         _dtoa_r [471]
+                0.00    0.00       8/8           __muldf3 [436]
+                0.00    0.00       7/7           __subdf3 [438]
+                0.00    0.00       7/7           __floatsidf [437]
+                0.00    0.00       6/6           __fixdfsi [439]
+                0.00    0.00       4/4           __adddf3 [445]
+                0.00    0.00       2/2           __gtdf2 [451]
+                0.00    0.00       2/2           __ltdf2 [452]
+                0.00    0.00       1/13613       __divdf3 [406]
+                0.00    0.00       1/1           __d2b [462]
+                0.00    0.00       1/3           __eqdf2 [447]
+                0.00    0.00       1/2           _Balloc [449]
+                0.00    0.00       1/1           _Bfree [460]
+-----------------------------------------------
+                0.00    0.00       1/1           exit [126]
+[472]    0.0    0.00    0.00       1         _exit [472]
+-----------------------------------------------
+                0.00    0.00       1/1           exit [126]
+[473]    0.0    0.00    0.00       1         _fwalk_reent [473]
+                0.00    0.00       3/5           _fclose_r [444]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [449] _Balloc               [412] _malloc_r             [127] find_directory_entry (altera_ro_zipfs.c)
+ [460] _Bfree                [459] _open_r                [34] find_file_entry (altera_ro_zipfs.c)
+ [422] ___vfprintf_internal_r [416] _read_r               [93] find_file_entry_by_name (altera_ro_zipfs.c)
+ [445] __adddf3              [434] _realloc_r             [31] finitef
+ [395] __addsf3              [433] _sbrk_r                [94] fopen
+ [461] __call_exitprocs      [415] _strdup_r              [40] fread
+ [397] __clzsi2              [402] _strtod_r              [30] free
+ [462] __d2b                 [431] _write_r               [95] fstat
+ [406] __divdf3               [84] alt_alarm_start        [15] kad_allocate_internal (kautodiff.c)
+ [410] __divsf3               [99] alt_avalon_timer_sc_init [66] kad_copy_dim1 (kautodiff.c)
+ [419] __divsi3               [67] alt_avalon_timer_sc_irq (altera_avalon_timer_sc.c) [128] kad_delete
+ [447] __eqdf2               [100] alt_check_primary_table [9] kad_eval_at
+ [463] __extendsfdf2         [101] alt_dcache_flush_all   [10] kad_eval_marked
+ [439] __fixdfsi              [72] alt_dev_llist_insert  [129] kad_ext_sync (kann.c)
+ [399] __fixsfsi              [76] alt_dev_reg (alt_dev.h) [64] kad_len (kautodiff.h)
+ [400] __fixunssfsi           [77] alt_file_locked (alt_open.c) [29] kad_len (kautodiff.h)
+ [437] __floatsidf            [63] alt_find_dev           [11] kad_load
+ [414] __floatsisf            [85] alt_find_file          [61] kad_load1 (kautodiff.c)
+ [405] __floatunsidf         [102] alt_flash_cfi_init     [96] kad_mark_back (kautodiff.c)
+ [450] __fpclassifyd         [103] alt_flash_device_register (alt_flash_dev.h) [19] kad_op_add
+ [451] __gtdf2               [104] alt_fs_reg             [82] kad_op_ce_bin
+ [398] __gtsf2                [68] alt_get_fd              [6] kad_op_cmul
+  [18] __ieee754_expf         [86] alt_ic_irq_enable      [83] kad_op_dropout
+ [413] __lesf2                [87] alt_ic_isr_register    [48] kad_op_relu
+ [464] __lo0bits             [105] alt_icache_flush       [49] kad_op_select
+ [452] __ltdf2               [106] alt_icache_flush_all   [17] kad_op_sigm
+ [408] __malloc_lock          [88] alt_iic_isr_register   [51] kad_propagate_marks (kautodiff.c)
+ [409] __malloc_unlock       [107] alt_io_redirect        [20] kad_saxpy
+ [453] __modsi3               [41] alt_irq_handler        [21] kad_saxpy_inlined (kautodiff.c)
+ [436] __muldf3              [108] alt_irq_init            [5] kad_sdot (kautodiff.c)
+ [446] __muldi3              [109] alt_load                [7] kad_sgemm_simple
+   [4] __mulsf3               [78] alt_load_section (alt_load.h) [130] kad_size_const
+ [465] __register_exitproc     [1] alt_main              [131] kad_size_var
+ [427] __sbprintf (vfprintf.c) [79] alt_open_fd (alt_io_redirect.c) [97] kad_splitmix64 (kautodiff.c)
+ [440] __sclose               [69] alt_read_16bit_query_entry (altera_avalon_cfi_flash_table.c) [132] kad_srand
+ [454] __sflags              [110] alt_read_cfi_table     [14] kad_sync_dim
+ [426] __sflush_r            [111] alt_read_cfi_width    [133] kad_trap_fe
+ [466] __sfmoreglue           [59] alt_read_query_entry_16bit [8] kann_apply1
+ [455] __sfp                  [62] alt_release_fd        [134] kann_data_free
+ [441] __sfp_lock_acquire    [112] alt_ro_zipfs_check_valid [135] kann_data_read
+ [442] __sfp_lock_release     [89] alt_ro_zipfs_fstat    [136] kann_delete
+ [420] __sfvwrite_r           [90] alt_ro_zipfs_open     [137] kann_delete_unrolled
+ [467] __sinit                [35] alt_ro_zipfs_read      [52] kann_feed_bind
+ [448] __smakebuf_r          [113] alt_set_flash_algorithm_func [98] kann_feed_dim
+ [421] __sprint_r            [114] alt_set_flash_width_func [53] kann_find
+ [417] __sread               [115] alt_sys_init           [12] kann_load
+ [418] __srefill_r            [70] alt_tick               [13] kann_load_fp
+ [438] __subdf3              [116] alt_up_char_buffer_clear [138] kann_switch
+ [407] __subsf3               [39] alt_up_char_buffer_draw [139] kann_switch_core (kann.c)
+ [428] __swrite              [117] alt_up_char_buffer_init [2] main
+ [468] __swsetup_r           [118] alt_up_char_buffer_open_dev [43] malloc
+ [401] __truncdfsf2          [119] alt_up_pixel_buffer_dma_clear_screen [37] memchr
+ [423] __udivdi3             [120] alt_up_pixel_buffer_dma_open_dev [58] memcmp
+ [403] __udivsi3              [91] alt_write_flash_command_16bit_device_8bit_mode [28] memcpy
+ [424] __umoddi3             [121] alt_write_flash_command_8bit_device_8bit_mode [33] memmove
+ [404] __umodsi3              [73] altera_avalon_jtag_uart_close [38] memset
+ [429] __vfprintf_internal    [74] altera_avalon_jtag_uart_close_fd [71] open
+ [435] _calloc_r             [122] altera_avalon_jtag_uart_init [46] printf
+ [456] _cleanup_r             [42] altera_avalon_jtag_uart_irq (altera_avalon_jtag_uart_init.c) [36] read
+ [443] _close_r               [75] altera_avalon_jtag_uart_timeout (altera_avalon_jtag_uart_init.c) [26] read_half_word (altera_ro_zipfs.c)
+ [469] _do_ctors              [44] altera_avalon_jtag_uart_write [56] read_half_word_inc (altera_ro_zipfs.c)
+ [470] _do_dtors              [45] altera_avalon_jtag_uart_write_fd [27] read_word (altera_ro_zipfs.c)
+ [471] _dtoa_r               [123] altera_nios2_qsys_irq_init [60] read_word_inc (altera_ro_zipfs.c)
+ [472] _exit                 [124] atexit                 [55] realloc
+ [444] _fclose_r              [57] calloc                 [54] strcmp
+ [430] _fflush_r              [80] check_directory_header [32] strdup
+ [432] _fgets_r              [125] check_directory_table (altera_ro_zipfs.c) [23] strlen
+ [457] _fopen_r               [81] check_file_header (altera_ro_zipfs.c) [25] strncmp
+ [425] _fread_r               [65] close                  [24] strtod
+ [411] _free_r               [126] exit                   [47] write
+ [458] _fstat_r               [16] expf                   [22] <cycle 1>
+ [473] _fwalk_reent           [92] fclose
+ [396] _localeconv_r          [50] fgets

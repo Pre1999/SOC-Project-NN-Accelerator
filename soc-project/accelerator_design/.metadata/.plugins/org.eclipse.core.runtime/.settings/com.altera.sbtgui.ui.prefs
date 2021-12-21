@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/software/FPGA_Check
+newSoftwareExampleWizardPage.sopcinfoFile=/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/nios_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=/home/ecegrid/a/695r11/ece695r/soc-project/accelerator_design/software/FPGA_Check_bsp

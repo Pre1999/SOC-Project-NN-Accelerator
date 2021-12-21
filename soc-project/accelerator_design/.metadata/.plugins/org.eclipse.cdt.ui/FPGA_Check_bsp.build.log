@@ -1,0 +1,6 @@
+18:34:57 **** Clean-only build of configuration Nios II for project FPGA_Check_bsp ****
+make clean 
+[BSP clean complete]
+
+18:34:57 Build Finished (took 113ms)
+
